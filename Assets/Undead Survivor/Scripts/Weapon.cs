@@ -37,13 +37,6 @@ public class Weapon : MonoBehaviour
                 }
                 break;
         }
-
-        if (Keyboard.current != null &&
-            Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            Debug.Log("스페이스바 입력 성공!");
-            LevelUp(10, 1);
-        }
     }
     public void LevelUp(float damage, int count)
     {

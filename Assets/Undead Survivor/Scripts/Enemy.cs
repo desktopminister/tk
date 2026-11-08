@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,18 +12,22 @@ public class Enemy : MonoBehaviour
 
     bool isLive;
     Rigidbody2D rb;
+    Collider2D col;
     SpriteRenderer sr;
+    WaitForFixedUpdate wait;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        col = GetComponent<Collider2D>();
+        wait = new WaitForFixedUpdate();
     }
 
     void FixedUpdate()
     {
-        if (!isLive)
+        if (!isLive || anim.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
             return;
 
         Vector2 dirVec = target.position - rb.position;
@@ -45,6 +50,10 @@ public class Enemy : MonoBehaviour
     {
         target = GameManager.instance.player.GetComponent<Rigidbody2D>();
         isLive = true;
+        col.enabled = true;
+        rb.simulated = true;
+        sr.sortingOrder = 2;
+        anim.SetBool("Dead", false);
         health = maxHealth;
     }
 
@@ -58,9 +67,10 @@ public class Enemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Bullet"))
+        if (!collision.CompareTag("Bullet") || !isLive)
             return;
         health -=collision.GetComponent<Bullet>().damage;
+        StartCoroutine(Knockback());
 
         if (health > 0)
         {
@@ -68,13 +78,25 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            Dead();
+            isLive = false;
+            col.enabled = false;
+            rb.simulated = false;
+            sr.sortingOrder = 1;
+            anim.SetBool("Dead", true);
+            GameManager.instance.kill++;
+            GameManager.instance.GetExp();
         }
+    }
+
+    IEnumerator Knockback()
+    {
+        yield return wait;
+        Vector3 playerPos = GameManager.instance.player.transform.position;
+        Vector3 dirVec = transform.position - playerPos;
+        rb.AddForce(dirVec.normalized * 3, ForceMode2D.Impulse);
     }
     void Dead()
     {
-        anim.SetTrigger("Dead");
-        isLive = false;
         gameObject.SetActive(false);
     }
 }
