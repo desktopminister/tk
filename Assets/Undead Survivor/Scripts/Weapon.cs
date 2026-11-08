@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Weapon : MonoBehaviour
 {
@@ -8,6 +9,13 @@ public class Weapon : MonoBehaviour
     public int count;
     public float speed;
     // Update is called once per frame
+    float timer;
+    Player player;
+
+    void Awake()
+    {
+        player = GetComponentInParent<Player>();
+    }
 
     void Start()
     {
@@ -21,12 +29,20 @@ public class Weapon : MonoBehaviour
                 transform.Rotate(Vector3.back * speed * Time.deltaTime);
                 break;
             default:
+                timer += Time.deltaTime;
+                if (timer >= speed)
+                {
+                    timer = 0;
+                    Fire();
+                }
                 break;
         }
-        //Test code
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        if (Keyboard.current != null &&
+            Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            LevelUp(20, 5);
+            Debug.Log("스페이스바 입력 성공!");
+            LevelUp(10, 1);
         }
     }
     public void LevelUp(float damage, int count)
@@ -47,6 +63,7 @@ public class Weapon : MonoBehaviour
                 Batch();
                 break;
             default:
+                speed = 0.3f;
                 break;
 
         }
@@ -73,7 +90,19 @@ public class Weapon : MonoBehaviour
             bullet.Rotate(rotVec);
             
             bullet.Translate(bullet.up * 1.5f, Space.World);
-            bullet.GetComponent<Bullet>().Init(damage, -1); // -1 is infinity pierce.
+            bullet.GetComponent<Bullet>().Init(damage, -1, bullet.up); // -1 is infinity pierce.
         }
+    }
+    void Fire()
+    {
+        if (!(player.scanner.nearestTarget != null))
+            return;
+
+        Vector3 targetPos = player.scanner.nearestTarget.position;
+        Vector3 dir = (targetPos - transform.position).normalized;
+        Transform bullet = GameManager.instance.poolManager.Get(prefabId).transform;
+        bullet.position = transform.position;
+        bullet.rotation = Quaternion.FromToRotation(Vector3.up, dir);
+        bullet.GetComponent<Bullet>().Init(damage, count, dir);
     }
 }
