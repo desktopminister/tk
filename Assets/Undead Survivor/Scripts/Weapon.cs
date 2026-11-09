@@ -20,6 +20,8 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
+        if (!GameManager.instance.isLive)
+            return;
         switch (id)
         {
             case 0:
@@ -80,6 +82,9 @@ public class Weapon : MonoBehaviour
                 break;
 
         }
+        Hand hand = player.hands[(int)data.itemType];
+        hand.sr.sprite = data.hand;
+        hand.gameObject.SetActive(true);
 
         player.BroadcastMessage("ApplyGear", SendMessageOptions.DontRequireReceiver);
     }
