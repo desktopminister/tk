@@ -26,6 +26,10 @@ public class Weapon : MonoBehaviour
         {
             case 0:
                 transform.Rotate(Vector3.back * speed * Time.deltaTime);
+                for (int i = 0; i < transform.childCount; i++)
+                {
+                    transform.GetChild(i).rotation = Quaternion.identity;
+                }
                 break;
             default:
                 timer += Time.deltaTime;
@@ -103,13 +107,9 @@ public class Weapon : MonoBehaviour
                 bullet.parent = transform;
             }
 
-            bullet.localPosition = Vector3.zero;
-            bullet.localRotation = Quaternion.identity;
-
-            Vector3 rotVec = Vector3.forward * i * 360f / count;
-            bullet.Rotate(rotVec);
-            
-            bullet.Translate(bullet.up * 1.5f, Space.World);
+            float angle = i * 360f / count;
+            bullet.localPosition = Quaternion.Euler(0f, 0f, angle) * Vector3.up * 1.7f;
+            bullet.rotation = Quaternion.identity;
             bullet.GetComponent<Bullet>().Init(damage, -1, bullet.up); // -1 is infinity pierce.
         }
     }

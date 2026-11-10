@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemType: 4
   itemId: 4
-  itemName: Drink
+  itemName: "\uB9CC\uB450"
   itemDesc: "\uC0DD\uBA85\uB825 \uC804\uCCB4 \uD68C\uBCF5"
-  itemIcon: {fileID: 927338625, guid: d71a3dc7aa20fad4f9a99fc76a9254ba, type: 3}
+  itemIcon: {fileID: 7826192498142463681, guid: 55517df1bc2b7d64d9920e17540129ff, type: 3}
   baseDamage: 0
   baseCount: 0
   damages:

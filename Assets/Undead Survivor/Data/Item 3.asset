@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemType: 3
   itemId: 3
-  itemName: Tactical Boots
+  itemName: "\uB3C4\uC220"
   itemDesc: "\uC774\uB3D9\uC18D\uB3C4 {0}% \uC99D\uAC00"
-  itemIcon: {fileID: -966295699, guid: d71a3dc7aa20fad4f9a99fc76a9254ba, type: 3}
+  itemIcon: {fileID: -7870609474747408299, guid: 6404cc99f3f60a845850bb2f69ab920a, type: 3}
   baseDamage: 0
   baseCount: 0
   damages:
