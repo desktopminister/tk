@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [Header("#Game Control")]
     public bool isLive;
     public float gameTime;
-    public float maxGameTime = 2*10f;
+    public float maxPlayTime = 60f;
     [Header("#Player Info")]
     public float health;
     public float maxHealth = 100;
@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     public LevelUp uiLevelUp;
     public Result uiResult;
     public GameObject enemyCleaner;
+    int damageBatchDepth;
+    int pendingLevelUps;
     void Awake()
     {
         instance = this;
@@ -75,9 +77,9 @@ public class GameManager : MonoBehaviour
         if (!isLive)
             return;
         gameTime += Time.deltaTime;
-        if (gameTime >= maxGameTime)
+        if (gameTime >= maxPlayTime)
         {
-            gameTime = maxGameTime;
+            gameTime = maxPlayTime;
             GameWin();
         }
     }
@@ -90,8 +92,32 @@ public class GameManager : MonoBehaviour
         {
             exp -= nextExp[Mathf.Min(level, nextExp.Length - 1)];
             level++;
-            uiLevelUp.Show();
+            if (damageBatchDepth > 0)
+                pendingLevelUps++;
+            else
+                uiLevelUp.Show();
         }
+    }
+
+    public void BeginDamageBatch()
+    {
+        damageBatchDepth++;
+    }
+
+    public void EndDamageBatch()
+    {
+        damageBatchDepth--;
+        if (damageBatchDepth == 0 && isLive)
+            ShowPendingLevelUp();
+    }
+
+    public bool ShowPendingLevelUp()
+    {
+        if (pendingLevelUps == 0)
+            return false;
+        pendingLevelUps--;
+        uiLevelUp.Show();
+        return true;
     }
 
     public void Stop()

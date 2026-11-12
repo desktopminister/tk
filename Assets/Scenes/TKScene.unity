@@ -493,7 +493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   isLive: 0
   gameTime: 0
-  maxGameTime: 20
+  maxPlayTime: 20
   health: 0
   maxHealth: 100
   level: 0

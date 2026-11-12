@@ -5,7 +5,7 @@ public class ItemData : ScriptableObject
 {
     public enum ItemType
     {
-        Melee, Ranged, Glove, Shoe, Heal
+        Melee, Ranged, Glove, Shoe, Heal, FireBreath, LightningStrike
     }
     //아이템 데이터 관리
     [Header("# Main Info")]
@@ -23,5 +23,10 @@ public class ItemData : ScriptableObject
     [Header("# Weapon")]
     public GameObject projectile;
     public Sprite hand;
+    [Header("# Area Weapon")]
+    public float attackInterval;
+    public float attackRange;
+    public float areaRadius;
+    public float effectScale = 1f;
 
 }

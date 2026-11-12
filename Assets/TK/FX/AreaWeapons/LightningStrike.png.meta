@@ -1,0 +1,3434 @@
+fileFormatVersion: 2
+guid: 94caee2de40c57b46ba1046cde47adf0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3402156135608667222
+    second: LightningStrike_0
+  - first:
+      213: 7559705602877933973
+    second: LightningStrike_1
+  - first:
+      213: 6854087939297921297
+    second: LightningStrike_2
+  - first:
+      213: 7980869619337426929
+    second: LightningStrike_3
+  - first:
+      213: -6735394797777408168
+    second: LightningStrike_4
+  - first:
+      213: 6875750991074769969
+    second: LightningStrike_5
+  - first:
+      213: -6384150917626899302
+    second: LightningStrike_6
+  - first:
+      213: -3694694878941007333
+    second: LightningStrike_7
+  - first:
+      213: -3818324212276168146
+    second: LightningStrike_8
+  - first:
+      213: -113787731141275532
+    second: LightningStrike_9
+  - first:
+      213: 1456774262850763301
+    second: LightningStrike_10
+  - first:
+      213: 5227063365213845780
+    second: LightningStrike_11
+  - first:
+      213: -3696893988384933859
+    second: LightningStrike_12
+  - first:
+      213: -1596173323203606372
+    second: LightningStrike_13
+  - first:
+      213: 6854244362646448678
+    second: LightningStrike_14
+  - first:
+      213: 2261386732561315926
+    second: LightningStrike_15
+  - first:
+      213: 1751538271402299351
+    second: LightningStrike_16
+  - first:
+      213: 396773569389560776
+    second: LightningStrike_17
+  - first:
+      213: 8406475755085425868
+    second: LightningStrike_18
+  - first:
+      213: 1228122488213836120
+    second: LightningStrike_19
+  - first:
+      213: -8526205329003086097
+    second: LightningStrike_20
+  - first:
+      213: 5694557641183745697
+    second: LightningStrike_21
+  - first:
+      213: -795247818147002278
+    second: LightningStrike_22
+  - first:
+      213: -4302940266808696289
+    second: LightningStrike_23
+  - first:
+      213: -1928126784032792742
+    second: LightningStrike_24
+  - first:
+      213: 6547254742145790682
+    second: LightningStrike_25
+  - first:
+      213: 4247555117251168319
+    second: LightningStrike_26
+  - first:
+      213: 1684033154582145236
+    second: LightningStrike_27
+  - first:
+      213: 3599306991952735227
+    second: LightningStrike_28
+  - first:
+      213: 7155315571439253407
+    second: LightningStrike_29
+  - first:
+      213: 7510126901930218526
+    second: LightningStrike_30
+  - first:
+      213: -4794885784024689228
+    second: LightningStrike_31
+  - first:
+      213: -2289933839099808795
+    second: LightningStrike_32
+  - first:
+      213: 6051513593698844330
+    second: LightningStrike_33
+  - first:
+      213: -3051006312963914144
+    second: LightningStrike_34
+  - first:
+      213: 4013769951369178979
+    second: LightningStrike_35
+  - first:
+      213: 1196324241439568935
+    second: LightningStrike_36
+  - first:
+      213: 7470356373422211658
+    second: LightningStrike_37
+  - first:
+      213: -93545333087936992
+    second: LightningStrike_38
+  - first:
+      213: 6938012974419845402
+    second: LightningStrike_39
+  - first:
+      213: 5739456177561168525
+    second: LightningStrike_40
+  - first:
+      213: -7771533219068639677
+    second: LightningStrike_41
+  - first:
+      213: 874777837355445323
+    second: LightningStrike_42
+  - first:
+      213: 3651368462858663460
+    second: LightningStrike_43
+  - first:
+      213: 8450696172986898646
+    second: LightningStrike_44
+  - first:
+      213: 8859758359474223151
+    second: LightningStrike_45
+  - first:
+      213: 1690192085389924993
+    second: LightningStrike_46
+  - first:
+      213: 6585521470591396211
+    second: LightningStrike_47
+  - first:
+      213: 6110702615302305391
+    second: LightningStrike_48
+  - first:
+      213: 8616635411506790294
+    second: LightningStrike_49
+  - first:
+      213: -6911260291119333944
+    second: LightningStrike_50
+  - first:
+      213: -8676884341102936282
+    second: LightningStrike_51
+  - first:
+      213: -5916736730870044443
+    second: LightningStrike_52
+  - first:
+      213: 2952136713794329687
+    second: LightningStrike_53
+  - first:
+      213: -7227739236970242994
+    second: LightningStrike_54
+  - first:
+      213: -4832926079488767694
+    second: LightningStrike_55
+  - first:
+      213: -7110695478480615551
+    second: LightningStrike_56
+  - first:
+      213: 2358587359985535889
+    second: LightningStrike_57
+  - first:
+      213: -2404030930612180816
+    second: LightningStrike_58
+  - first:
+      213: 8452137164624015110
+    second: LightningStrike_59
+  - first:
+      213: 6713476280936640807
+    second: LightningStrike_60
+  - first:
+      213: 8991425422856215931
+    second: LightningStrike_61
+  - first:
+      213: 3670885281865372040
+    second: LightningStrike_62
+  - first:
+      213: 5391598337479732428
+    second: LightningStrike_63
+  - first:
+      213: -6652699806022549628
+    second: LightningStrike_64
+  - first:
+      213: -534020217357640041
+    second: LightningStrike_65
+  - first:
+      213: 2803546352430102069
+    second: LightningStrike_66
+  - first:
+      213: 6072958408913424275
+    second: LightningStrike_67
+  - first:
+      213: 3314798225927558255
+    second: LightningStrike_68
+  - first:
+      213: -7694817868133172405
+    second: LightningStrike_69
+  - first:
+      213: -3201531925697999934
+    second: LightningStrike_70
+  - first:
+      213: 1750841778223948118
+    second: LightningStrike_71
+  - first:
+      213: 9174599064443744314
+    second: LightningStrike_72
+  - first:
+      213: -3580648237953016143
+    second: LightningStrike_73
+  - first:
+      213: -5588994910329635235
+    second: LightningStrike_74
+  - first:
+      213: -3953736555185887523
+    second: LightningStrike_75
+  - first:
+      213: 5295968692671278426
+    second: LightningStrike_76
+  - first:
+      213: 562681623816504054
+    second: LightningStrike_77
+  - first:
+      213: -5742579106810551867
+    second: LightningStrike_78
+  - first:
+      213: -8907917412189292793
+    second: LightningStrike_79
+  - first:
+      213: 3976172371541780780
+    second: LightningStrike_80
+  - first:
+      213: -7886578745837729619
+    second: LightningStrike_81
+  - first:
+      213: -5254695865819656313
+    second: LightningStrike_82
+  - first:
+      213: 5349512465153700832
+    second: LightningStrike_83
+  - first:
+      213: -7787873542165577372
+    second: LightningStrike_84
+  - first:
+      213: 3180612869583740439
+    second: LightningStrike_85
+  - first:
+      213: 5210100411272384866
+    second: LightningStrike_86
+  - first:
+      213: 7391753456046714050
+    second: LightningStrike_87
+  - first:
+      213: -5202332960729257390
+    second: LightningStrike_88
+  - first:
+      213: 1912442847209233009
+    second: LightningStrike_89
+  - first:
+      213: -2766957276929671967
+    second: LightningStrike_90
+  - first:
+      213: 7685018382340417082
+    second: LightningStrike_91
+  - first:
+      213: 1122611477182097471
+    second: LightningStrike_92
+  - first:
+      213: -4531094172872687477
+    second: LightningStrike_93
+  - first:
+      213: 660375579033146876
+    second: LightningStrike_94
+  - first:
+      213: -1880996349256565607
+    second: LightningStrike_95
+  - first:
+      213: 2620210007342613465
+    second: LightningStrike_96
+  - first:
+      213: -8514075793763717866
+    second: LightningStrike_97
+  - first:
+      213: 2832977650020306523
+    second: LightningStrike_98
+  - first:
+      213: -4192897720926610924
+    second: LightningStrike_99
+  - first:
+      213: -2597271919413594690
+    second: LightningStrike_100
+  - first:
+      213: -3289981401142781578
+    second: LightningStrike_101
+  - first:
+      213: -415366817351090288
+    second: LightningStrike_102
+  - first:
+      213: 7382225397036118108
+    second: LightningStrike_103
+  - first:
+      213: 8880414688600156085
+    second: LightningStrike_104
+  - first:
+      213: 6991372684451085325
+    second: LightningStrike_105
+  - first:
+      213: -2318855577267931490
+    second: LightningStrike_106
+  - first:
+      213: -3221869007210573767
+    second: LightningStrike_107
+  - first:
+      213: -4275971862442910215
+    second: LightningStrike_108
+  - first:
+      213: 1520053506481164759
+    second: LightningStrike_109
+  - first:
+      213: -8699488052247138020
+    second: LightningStrike_110
+  - first:
+      213: -5213968468413657456
+    second: LightningStrike_111
+  - first:
+      213: 4782170080619318077
+    second: LightningStrike_112
+  - first:
+      213: -4989872085546974340
+    second: LightningStrike_113
+  - first:
+      213: -7371663891918260314
+    second: LightningStrike_114
+  - first:
+      213: 5280947949023639461
+    second: LightningStrike_115
+  - first:
+      213: -4436519296634444291
+    second: LightningStrike_116
+  - first:
+      213: -7873154355918031544
+    second: LightningStrike_117
+  - first:
+      213: 5098700189713736313
+    second: LightningStrike_118
+  - first:
+      213: -6181144100673490471
+    second: LightningStrike_119
+  - first:
+      213: 4690728714632133388
+    second: LightningStrike_120
+  - first:
+      213: -8794748034128811632
+    second: LightningStrike_121
+  - first:
+      213: -6660951942976662811
+    second: LightningStrike_122
+  - first:
+      213: -4284975801777404618
+    second: LightningStrike_123
+  - first:
+      213: 3447747707383672397
+    second: LightningStrike_124
+  - first:
+      213: 8295321869665830357
+    second: LightningStrike_125
+  - first:
+      213: -6530479857914073875
+    second: LightningStrike_126
+  - first:
+      213: 8439662998202923172
+    second: LightningStrike_127
+  - first:
+      213: -5940522830429992146
+    second: LightningStrike_128
+  - first:
+      213: -227467977494661328
+    second: LightningStrike_129
+  - first:
+      213: -8024274545589364332
+    second: LightningStrike_130
+  - first:
+      213: -1413823061421739698
+    second: LightningStrike_131
+  - first:
+      213: 7849822992135031687
+    second: LightningStrike_132
+  - first:
+      213: -4181290928722372097
+    second: LightningStrike_133
+  - first:
+      213: 909951095415661019
+    second: LightningStrike_134
+  - first:
+      213: -1555267191857437521
+    second: LightningStrike_135
+  - first:
+      213: 1214325490305737882
+    second: LightningStrike_136
+  - first:
+      213: 6919153592567339886
+    second: LightningStrike_137
+  - first:
+      213: -4964741733042947931
+    second: LightningStrike_138
+  - first:
+      213: 7349010361702650647
+    second: LightningStrike_139
+  - first:
+      213: 2862356226472862758
+    second: LightningStrike_140
+  - first:
+      213: 170270467507159840
+    second: LightningStrike_141
+  - first:
+      213: -8837851292419535567
+    second: LightningStrike_142
+  - first:
+      213: 5284855792501635486
+    second: LightningStrike_143
+  - first:
+      213: 2952767646908153165
+    second: LightningStrike_144
+  - first:
+      213: 5029053731051999541
+    second: LightningStrike_145
+  - first:
+      213: 8843836768058791142
+    second: LightningStrike_146
+  - first:
+      213: 3255077838083264254
+    second: LightningStrike_147
+  - first:
+      213: 8520811928512189319
+    second: LightningStrike_148
+  - first:
+      213: 6948127437819611801
+    second: LightningStrike_149
+  - first:
+      213: -2931107580244472731
+    second: LightningStrike_150
+  - first:
+      213: 2957200541336529093
+    second: LightningStrike_151
+  - first:
+      213: -7861145753763978779
+    second: LightningStrike_152
+  - first:
+      213: -1611579352658311639
+    second: LightningStrike_153
+  - first:
+      213: 249694253565491892
+    second: LightningStrike_154
+  - first:
+      213: 418623628496796113
+    second: LightningStrike_155
+  - first:
+      213: -7656765498664756620
+    second: LightningStrike_156
+  - first:
+      213: -5267062684250577676
+    second: LightningStrike_157
+  - first:
+      213: -1037747186152998460
+    second: LightningStrike_158
+  - first:
+      213: -8795247320392988053
+    second: LightningStrike_159
+  - first:
+      213: 474139732943275289
+    second: LightningStrike_160
+  - first:
+      213: -132862847939217794
+    second: LightningStrike_161
+  - first:
+      213: 4854340158852031626
+    second: LightningStrike_162
+  - first:
+      213: 5304416256428893006
+    second: LightningStrike_163
+  - first:
+      213: -4465482569732335217
+    second: LightningStrike_164
+  - first:
+      213: -4474261360546486675
+    second: LightningStrike_165
+  - first:
+      213: 7279029195404170929
+    second: LightningStrike_166
+  - first:
+      213: 6571012014001602116
+    second: LightningStrike_167
+  - first:
+      213: -6338801690746303984
+    second: LightningStrike_168
+  - first:
+      213: 6045175207376438409
+    second: LightningStrike_169
+  - first:
+      213: -2885482331108627963
+    second: LightningStrike_170
+  - first:
+      213: -1750491444589497694
+    second: LightningStrike_171
+  - first:
+      213: -4842809078688329671
+    second: LightningStrike_172
+  - first:
+      213: 5186287445103777830
+    second: LightningStrike_173
+  - first:
+      213: 5614186886450816552
+    second: LightningStrike_174
+  - first:
+      213: -7887704372477478471
+    second: LightningStrike_175
+  - first:
+      213: 595314156888476995
+    second: LightningStrike_176
+  - first:
+      213: -9002685942518699240
+    second: LightningStrike_177
+  - first:
+      213: -7272099483471010545
+    second: LightningStrike_178
+  - first:
+      213: 2846113870154350760
+    second: LightningStrike_179
+  - first:
+      213: -142104894990816716
+    second: LightningStrike_180
+  - first:
+      213: -7405118669990715170
+    second: LightningStrike_181
+  - first:
+      213: -5012292237284024583
+    second: LightningStrike_182
+  - first:
+      213: -2221549569158727467
+    second: LightningStrike_183
+  - first:
+      213: -4989945160209364821
+    second: LightningStrike_184
+  - first:
+      213: -4720486255322642318
+    second: LightningStrike_185
+  - first:
+      213: 5807313746381167979
+    second: LightningStrike_186
+  - first:
+      213: -4463370335976613176
+    second: LightningStrike_187
+  - first:
+      213: -8878236959509817086
+    second: LightningStrike_188
+  - first:
+      213: 5117489023054645560
+    second: LightningStrike_189
+  - first:
+      213: 8493165037995216714
+    second: LightningStrike_190
+  - first:
+      213: -6277254372124420988
+    second: LightningStrike_191
+  - first:
+      213: -665037347405669173
+    second: LightningStrike_192
+  - first:
+      213: -4153499994219949067
+    second: LightningStrike_193
+  - first:
+      213: 3544743835399703132
+    second: LightningStrike_194
+  - first:
+      213: -1693663502540678670
+    second: LightningStrike_195
+  - first:
+      213: 2847683824229176666
+    second: LightningStrike_196
+  - first:
+      213: -7076397845311036006
+    second: LightningStrike_197
+  - first:
+      213: -7377621398826283888
+    second: LightningStrike_198
+  - first:
+      213: 2138246614161678216
+    second: LightningStrike_199
+  - first:
+      213: 5635399938432758567
+    second: LightningStrike_200
+  - first:
+      213: -5290311114448712431
+    second: LightningStrike_201
+  - first:
+      213: 7816652711453173371
+    second: LightningStrike_202
+  - first:
+      213: -6894745479817005696
+    second: LightningStrike_203
+  - first:
+      213: -7543849413518938714
+    second: LightningStrike_204
+  - first:
+      213: -8396214451328371635
+    second: LightningStrike_205
+  - first:
+      213: -133372029842096513
+    second: LightningStrike_206
+  - first:
+      213: 6285761391317589781
+    second: LightningStrike_207
+  - first:
+      213: 5583285087277094584
+    second: LightningStrike_208
+  - first:
+      213: -4358616193780539927
+    second: LightningStrike_209
+  - first:
+      213: 2705177518367844663
+    second: LightningStrike_210
+  - first:
+      213: -5444698913509389414
+    second: LightningStrike_211
+  - first:
+      213: -33285698272870982
+    second: LightningStrike_212
+  - first:
+      213: 2785470769370937493
+    second: LightningStrike_213
+  - first:
+      213: 4725797241747518958
+    second: LightningStrike_214
+  - first:
+      213: -1546144590526898806
+    second: LightningStrike_215
+  - first:
+      213: 8883330138059234263
+    second: LightningStrike_216
+  - first:
+      213: 2941568530026390110
+    second: LightningStrike_217
+  - first:
+      213: 3440604562452036010
+    second: LightningStrike_218
+  - first:
+      213: -243960215082393778
+    second: LightningStrike_219
+  - first:
+      213: 6321502484986318519
+    second: LightningStrike_220
+  - first:
+      213: 5512653676046982809
+    second: LightningStrike_221
+  - first:
+      213: -38343448708159634
+    second: LightningStrike_222
+  - first:
+      213: -3137897188010366052
+    second: LightningStrike_223
+  - first:
+      213: -980546195851908821
+    second: LightningStrike_224
+  - first:
+      213: -5199455222495828264
+    second: LightningStrike_225
+  - first:
+      213: -5428100136833122192
+    second: LightningStrike_226
+  - first:
+      213: -5697912345427225117
+    second: LightningStrike_227
+  - first:
+      213: 2616163771542614211
+    second: LightningStrike_228
+  - first:
+      213: 2013689329865059201
+    second: LightningStrike_229
+  - first:
+      213: 3760115170160119981
+    second: LightningStrike_230
+  - first:
+      213: 1780871778260656870
+    second: LightningStrike_231
+  - first:
+      213: 8503690479051090410
+    second: LightningStrike_232
+  - first:
+      213: -985540916326419033
+    second: LightningStrike_233
+  - first:
+      213: -4493159453968944426
+    second: LightningStrike_234
+  - first:
+      213: 6251101673587287563
+    second: LightningStrike_235
+  - first:
+      213: 5234680682245628354
+    second: LightningStrike_236
+  - first:
+      213: 5387981090204475376
+    second: LightningStrike_237
+  - first:
+      213: -8087223638837088773
+    second: LightningStrike_238
+  - first:
+      213: -6398394481787128240
+    second: LightningStrike_239
+  - first:
+      213: -6710097823708775619
+    second: LightningStrike_240
+  - first:
+      213: -964973637480774692
+    second: LightningStrike_241
+  - first:
+      213: 2769838889367990248
+    second: LightningStrike_242
+  - first:
+      213: -1089611514113252170
+    second: LightningStrike_243
+  - first:
+      213: -6827036714068668979
+    second: LightningStrike_244
+  - first:
+      213: -5843894719285528154
+    second: LightningStrike_245
+  - first:
+      213: -4285031397181700798
+    second: LightningStrike_246
+  - first:
+      213: -607519588652316274
+    second: LightningStrike_247
+  - first:
+      213: -8492344948587678178
+    second: LightningStrike_248
+  - first:
+      213: 2439775551921063466
+    second: LightningStrike_249
+  - first:
+      213: -5214784485619388232
+    second: LightningStrike_250
+  - first:
+      213: 4812171460805885941
+    second: LightningStrike_251
+  - first:
+      213: -5184064885876347692
+    second: LightningStrike_252
+  - first:
+      213: -303370465931958156
+    second: LightningStrike_253
+  - first:
+      213: -7581688794594999002
+    second: LightningStrike_254
+  - first:
+      213: -4781077366374938947
+    second: LightningStrike_255
+  - first:
+      213: -8316243320357156649
+    second: LightningStrike_256
+  - first:
+      213: -819413339944568920
+    second: LightningStrike_257
+  - first:
+      213: 8762801164031682465
+    second: LightningStrike_258
+  - first:
+      213: 529346299624291320
+    second: LightningStrike_259
+  - first:
+      213: -5150640152087936547
+    second: LightningStrike_260
+  - first:
+      213: 95566164730499077
+    second: LightningStrike_261
+  - first:
+      213: 1745387301349360620
+    second: LightningStrike_262
+  - first:
+      213: -5350034783935365210
+    second: LightningStrike_263
+  - first:
+      213: 8524185494551975605
+    second: LightningStrike_264
+  - first:
+      213: -877772401622283150
+    second: LightningStrike_265
+  - first:
+      213: 6958007199913725379
+    second: LightningStrike_266
+  - first:
+      213: 7082510964833149045
+    second: LightningStrike_267
+  - first:
+      213: -4464229852750417644
+    second: LightningStrike_268
+  - first:
+      213: -5377398403349187266
+    second: LightningStrike_269
+  - first:
+      213: 6387403319309469938
+    second: LightningStrike_270
+  - first:
+      213: -6675794751387701806
+    second: LightningStrike_271
+  - first:
+      213: -2795336881308467105
+    second: LightningStrike_272
+  - first:
+      213: -5253804659630692607
+    second: LightningStrike_273
+  - first:
+      213: 725013566566377899
+    second: LightningStrike_274
+  - first:
+      213: 717546504155474841
+    second: LightningStrike_275
+  - first:
+      213: -8961754148385120151
+    second: LightningStrike_276
+  - first:
+      213: 6062233006058424525
+    second: LightningStrike_277
+  - first:
+      213: 1099486510483198977
+    second: LightningStrike_278
+  - first:
+      213: 630037562626544396
+    second: LightningStrike_279
+  - first:
+      213: -4546934502828967996
+    second: LightningStrike_280
+  - first:
+      213: 2516744473026420700
+    second: LightningStrike_281
+  - first:
+      213: 2513583585910474149
+    second: LightningStrike_282
+  - first:
+      213: -1385626423500887759
+    second: LightningStrike_283
+  - first:
+      213: -394250075007284155
+    second: LightningStrike_284
+  - first:
+      213: 8354183762947521993
+    second: LightningStrike_285
+  - first:
+      213: 1615925148411342725
+    second: LightningStrike_286
+  - first:
+      213: 8869870105235618387
+    second: LightningStrike_287
+  - first:
+      213: 6894943644319755945
+    second: LightningStrike_288
+  - first:
+      213: -6163673237523934781
+    second: LightningStrike_289
+  - first:
+      213: -4596399774884077819
+    second: LightningStrike_290
+  - first:
+      213: -2315776441763895730
+    second: LightningStrike_291
+  - first:
+      213: 3306592946848423240
+    second: LightningStrike_292
+  - first:
+      213: 236366367706961613
+    second: LightningStrike_293
+  - first:
+      213: -7346474444985982940
+    second: LightningStrike_294
+  - first:
+      213: -9095359955460285987
+    second: LightningStrike_295
+  - first:
+      213: 9105303688796155648
+    second: LightningStrike_296
+  - first:
+      213: 3663410250839401030
+    second: LightningStrike_297
+  - first:
+      213: 2269972717038737285
+    second: LightningStrike_298
+  - first:
+      213: -659709251874210502
+    second: LightningStrike_299
+  - first:
+      213: 5494367911562987828
+    second: LightningStrike_300
+  - first:
+      213: -6526047995455233830
+    second: LightningStrike_301
+  - first:
+      213: 5507193737813229930
+    second: LightningStrike_302
+  - first:
+      213: -6753560679299821850
+    second: LightningStrike_303
+  - first:
+      213: -7076163128799658597
+    second: LightningStrike_304
+  - first:
+      213: -6236741133798177939
+    second: LightningStrike_305
+  - first:
+      213: -1333876934400868705
+    second: LightningStrike_306
+  - first:
+      213: -2572763675810811133
+    second: LightningStrike_307
+  - first:
+      213: 13902431122664346
+    second: LightningStrike_308
+  - first:
+      213: -3127120976670136384
+    second: LightningStrike_309
+  - first:
+      213: -5972204311143277826
+    second: LightningStrike_310
+  - first:
+      213: 6895524091516665884
+    second: LightningStrike_311
+  - first:
+      213: 852001476172997930
+    second: LightningStrike_312
+  - first:
+      213: -8734646730915164461
+    second: LightningStrike_313
+  - first:
+      213: 4763133398826137536
+    second: LightningStrike_314
+  - first:
+      213: -2952825578382091276
+    second: LightningStrike_315
+  - first:
+      213: 9223307799124266700
+    second: LightningStrike_316
+  - first:
+      213: 4930503979900240091
+    second: LightningStrike_317
+  - first:
+      213: 7788899377134643985
+    second: LightningStrike_318
+  - first:
+      213: -5039993429226098405
+    second: LightningStrike_319
+  - first:
+      213: -8415918349709562374
+    second: LightningStrike_320
+  - first:
+      213: 5292217080131039632
+    second: LightningStrike_321
+  - first:
+      213: -8044902076151526315
+    second: LightningStrike_322
+  - first:
+      213: -7294249532057802966
+    second: LightningStrike_323
+  - first:
+      213: -5853293902940429211
+    second: LightningStrike_324
+  - first:
+      213: -259778350525818782
+    second: LightningStrike_325
+  - first:
+      213: -712252384985982495
+    second: LightningStrike_326
+  - first:
+      213: 8290257097138231899
+    second: LightningStrike_327
+  - first:
+      213: -3823967737095717773
+    second: LightningStrike_328
+  - first:
+      213: -3017107721708553533
+    second: LightningStrike_329
+  - first:
+      213: 2252872798185862502
+    second: LightningStrike_330
+  - first:
+      213: 266783338532276810
+    second: LightningStrike_331
+  - first:
+      213: 6128711829059483175
+    second: LightningStrike_332
+  - first:
+      213: -606101086888321649
+    second: LightningStrike_333
+  - first:
+      213: 7473412046484516966
+    second: LightningStrike_334
+  - first:
+      213: 8378369089006779402
+    second: LightningStrike_335
+  - first:
+      213: -6038164686602024633
+    second: LightningStrike_336
+  - first:
+      213: -7524100736758872444
+    second: LightningStrike_337
+  - first:
+      213: 6039982194599868767
+    second: LightningStrike_338
+  - first:
+      213: 4298686297492999128
+    second: LightningStrike_339
+  - first:
+      213: -4810194907071137624
+    second: LightningStrike_340
+  - first:
+      213: -4962236555465443060
+    second: LightningStrike_341
+  - first:
+      213: -1227218837350028805
+    second: LightningStrike_342
+  - first:
+      213: 2804392624966037552
+    second: LightningStrike_343
+  - first:
+      213: -5429526022782219541
+    second: LightningStrike_344
+  - first:
+      213: 1997438347632808061
+    second: LightningStrike_345
+  - first:
+      213: 7186522769365370504
+    second: LightningStrike_346
+  - first:
+      213: 4343819786538472373
+    second: LightningStrike_347
+  - first:
+      213: 1993411323422185378
+    second: LightningStrike_348
+  - first:
+      213: -955627687523984042
+    second: LightningStrike_349
+  - first:
+      213: 4567528866431855453
+    second: LightningStrike_350
+  - first:
+      213: 5773267399849015929
+    second: LightningStrike_351
+  - first:
+      213: 4007106154406910246
+    second: LightningStrike_352
+  - first:
+      213: -4750191999659565364
+    second: LightningStrike_353
+  - first:
+      213: 234333334348639062
+    second: LightningStrike_354
+  - first:
+      213: -6086008736832539719
+    second: LightningStrike_355
+  - first:
+      213: -3549227081016391317
+    second: LightningStrike_356
+  - first:
+      213: -8720608218729872808
+    second: LightningStrike_357
+  - first:
+      213: 988716614303178597
+    second: LightningStrike_358
+  - first:
+      213: 6985238637006980445
+    second: LightningStrike_359
+  - first:
+      213: 6774310028606335554
+    second: LightningStrike_360
+  - first:
+      213: -1860180679198449713
+    second: LightningStrike_361
+  - first:
+      213: 8658448717496005811
+    second: LightningStrike_362
+  - first:
+      213: 5749956095535468524
+    second: LightningStrike_363
+  - first:
+      213: 8933946061543498664
+    second: LightningStrike_364
+  - first:
+      213: 4963606276719078201
+    second: LightningStrike_365
+  - first:
+      213: -949215726193314260
+    second: LightningStrike_366
+  - first:
+      213: 7925069627152991293
+    second: LightningStrike_367
+  - first:
+      213: 3507565615607991125
+    second: LightningStrike_368
+  - first:
+      213: 1159326945387135765
+    second: LightningStrike_369
+  - first:
+      213: -2702003696762857929
+    second: LightningStrike_370
+  - first:
+      213: -6880773791381211048
+    second: LightningStrike_371
+  - first:
+      213: -1495644702338681743
+    second: LightningStrike_372
+  - first:
+      213: 8015085419147496947
+    second: LightningStrike_373
+  - first:
+      213: -6928899001953893615
+    second: LightningStrike_374
+  - first:
+      213: -5209826103915594273
+    second: LightningStrike_375
+  - first:
+      213: -5276391260019352511
+    second: LightningStrike_376
+  - first:
+      213: -8643198929076910852
+    second: LightningStrike_377
+  - first:
+      213: -797786514007046179
+    second: LightningStrike_378
+  - first:
+      213: 5864268774907202125
+    second: LightningStrike_379
+  - first:
+      213: -4925106773995232574
+    second: LightningStrike_380
+  - first:
+      213: -6626735668898243330
+    second: LightningStrike_381
+  - first:
+      213: 8130338638526794629
+    second: LightningStrike_382
+  - first:
+      213: 8201984267752862015
+    second: LightningStrike_383
+  - first:
+      213: 8021607721469477788
+    second: LightningStrike_384
+  - first:
+      213: -5925994125619177175
+    second: LightningStrike_385
+  - first:
+      213: -554319819235624607
+    second: LightningStrike_386
+  - first:
+      213: 1438766316656984713
+    second: LightningStrike_387
+  - first:
+      213: -6238880741230187067
+    second: LightningStrike_388
+  - first:
+      213: -3056889771137289824
+    second: LightningStrike_389
+  - first:
+      213: -8562804279459881677
+    second: LightningStrike_390
+  - first:
+      213: 327940520845632405
+    second: LightningStrike_391
+  - first:
+      213: 8678302093242168341
+    second: LightningStrike_392
+  - first:
+      213: -7123194378577512062
+    second: LightningStrike_393
+  - first:
+      213: 5240232399911346562
+    second: LightningStrike_394
+  - first:
+      213: -5959225371428863053
+    second: LightningStrike_395
+  - first:
+      213: 411251745160765651
+    second: LightningStrike_396
+  - first:
+      213: -6644383285410676279
+    second: LightningStrike_397
+  - first:
+      213: -7019426719064360715
+    second: LightningStrike_398
+  - first:
+      213: 7518984763300745500
+    second: LightningStrike_399
+  - first:
+      213: 1417248642128165824
+    second: LightningStrike_400
+  - first:
+      213: 5057378842030857996
+    second: LightningStrike_401
+  - first:
+      213: -7559717693149495021
+    second: LightningStrike_402
+  - first:
+      213: -5005073024598288890
+    second: LightningStrike_403
+  - first:
+      213: 3777684174053988248
+    second: LightningStrike_404
+  - first:
+      213: 3026269342263532147
+    second: LightningStrike_405
+  - first:
+      213: 8837700022166093134
+    second: LightningStrike_406
+  - first:
+      213: 1030986429509221523
+    second: LightningStrike_407
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightningStrike_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0078d264aec220e4c80089ff131b214d
+      internalID: -473748825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_001
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26b87df40224074497ec43ccd75a225
+      internalID: -195616221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_002
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d5e47cf0f061845a83335c4bff1ddc
+      internalID: 1145774792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_003
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37e846e8bb41ea42b3ad0087d42e7d0
+      internalID: 1842684403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_004
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565fec5c0263b6d4cb2c953eabb5bdc0
+      internalID: -1175091001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_005
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f09d1d264d30e49a38ffea2c57c5a8
+      internalID: 1228311740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_006
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fefebebf258504e9048f470c1374f1
+      internalID: -1864784000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_007
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fc44ace4dd8a64fb38ab0dbe876cf1
+      internalID: -1090245028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_008
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa3ae8d98a21bf47b99f35b0cc577f3
+      internalID: -1470391712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_009
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e279b14a061f54b9e4b4e787e49a8c
+      internalID: -151769399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_010
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2112
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95fc833f3a3a6742a4a9c3ee93d6003
+      internalID: 1192735138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_011
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40aeb181b0b4504b8551fe9802db263
+      internalID: -1056151516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_012
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7feef525c9ba3fb4da93f8133918318a
+      internalID: 1803806045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_013
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc80f9da94c8a354987919df98fe1a93
+      internalID: -823019620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_014
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f5c651e2644644182c67e43f7e4daf
+      internalID: -808491909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_015
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b95c59a1a4f74418a21200d7a8e269
+      internalID: 145102069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_016
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a676b9ab0065da4caf6ce41b739e45c
+      internalID: -1680947192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_017
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496816e632ab0c649837a47a81622945
+      internalID: -2113649966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_018
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d109274c31ecd2d4eb6aadf25824199e
+      internalID: 2032957993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_019
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b821fef22f06374c8754750777eb897
+      internalID: 297305517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_020
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45c93476e98e32479b228e438626afa
+      internalID: -701675495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_021
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1848
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3126a6a27e6a74989e9c058914855b
+      internalID: -425924499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_022
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607efddae8b8e3b4aa822c9289cecee5
+      internalID: 2033530106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4df2b301d21ac44287b2bac3c6199a7
+      internalID: 1456282162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_024
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91206a63fe5c73b4aa51f173e149b35b
+      internalID: -1544918538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_025
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faa51822fc77284a9cf9665ab4de584
+      internalID: 1735790087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_026
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1df53f84f628945859df719ee24d14
+      internalID: -1522337778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_027
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54f8aaa1ce46ce40a1fa21afa827483
+      internalID: -2075214335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_028
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f846d0c1ad8321043b97500ed30a1561
+      internalID: -1264955197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_029
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a6d4ad5c5ddf14d87a9cab08032d4f
+      internalID: -379663687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_030
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7101fc207a04f45b7115bcf9d11bff
+      internalID: -32035688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_031
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb73bf5b4f0a4074f92e92a9b6b64173
+      internalID: -1510076368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_032
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1584
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1faf187ee84784d891b200bacc5ce8
+      internalID: 1985891956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_033
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa12bc42ea669c4494614490b89fb83
+      internalID: 286399733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_034
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8a71fd3bf2ca9419c23e37f680ee9c
+      internalID: 161618823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_035
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a4a205b6a590f429a095f5410f1513
+      internalID: -1873524873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_036
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91c88784a9fee44a6fa9e445af4b55
+      internalID: 320148414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_037
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc191e5ef776bc14ebfbe3b064ca8589
+      internalID: -945174608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_038
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96879686e7b01348ad45b99d33f254e
+      internalID: -3936584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_039
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc36d3166ea4a1428240096ca7917ff
+      internalID: -1813866142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_040
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7130ec0126fe3a47af2a381598a625a
+      internalID: -208757192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_041
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fabe7e08eb4d234c913b92fb9a8bc7e
+      internalID: -129728089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_042
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130d611ec6aff524b8c3ab0f2007dd0c
+      internalID: -1889996196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_043
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1320
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74621a145c4fde543a7463d938aadd7a
+      internalID: -655756126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_044
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07b1b05a0d408f48b9acdc62f5b497e
+      internalID: -402885150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_045
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b0c098f56b11f41aa83ccb4face7f4
+      internalID: 1607029464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4bfeba6b9ac04428b816132987172f
+      internalID: 857091593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_047
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b253052bbedc1e74f983fb36d5301f7f
+      internalID: 1608692786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_048
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ba9b5756f2e4a4eb1a94784edd57d7
+      internalID: 131375215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_049
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fa9bee2aaabed4a844890fd85111f1
+      internalID: -1926625548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_050
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dfd0ac50aa1ea4297a140e923eba98
+      internalID: 1303228710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_051
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d472ba8f5a7bf864f9aa2693490dfcd2
+      internalID: -1054176781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_052
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da8e5bdc2640754da77e9c7fbb4799a
+      internalID: 1103940382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_053
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2f214471c357e43a58e61399c25570
+      internalID: 1622779430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_054
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1056
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0da428187d6e24a971693d9e0f4167
+      internalID: -346726594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_055
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce78e552d7576742ab1a7cde5df1f64
+      internalID: -1048596338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_056
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af49623c4f665154b8a5f9a969700828
+      internalID: 687876439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_057
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dbb155f7bef4647aa870b6e55674da
+      internalID: -1138871854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_058
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c977e20801cd7d448f377107e90145e
+      internalID: -544669787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_059
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ad2bf915dfb7e4cbe0765ec8595e16
+      internalID: 1471301258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_060
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718c998da243e8147bf188c164b212c6
+      internalID: 1006919476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_061
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b244ec05575b0ee4683586e346ac03cd
+      internalID: 262688224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_062
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e3da55ce4fc204b8725c746fe09bdf
+      internalID: 337935113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_063
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b38053f95af104a82ad62de39605ce
+      internalID: -600810897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_064
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e79ea6c5e5a05479fb8a7bffbe3884
+      internalID: -1773921662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_065
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 792
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca1e2ad80f2d041bb0b01822c45782
+      internalID: 251693194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_066
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328d25293128bf5469bf7dd36be5cb02
+      internalID: -1589602276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_067
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8200214e96df143bb6fc5ce76c6488
+      internalID: -355905923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_068
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8652ce8683082646b3c224698e15294
+      internalID: -1589332985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ee9bb6a993ffd45971ceb5480fceb5
+      internalID: 1821109821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_070
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640b7e7315d674947b1347d0293abaf5
+      internalID: 671348102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_071
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f044573ec1ebe458c6607c12225653
+      internalID: 1195476244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_072
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f9a8fe3cdd9ac49a1cff06e90257cd
+      internalID: -712921333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_073
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23080e7fb77917d449bcaca7ce15104e
+      internalID: -1471690119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_074
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fb58f60fd4d0f498e1e101a1b4428f
+      internalID: 1118947191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_075
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38978810ea72c304bb22dc8561da8b88
+      internalID: -1266281120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_076
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 528
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d24f7368fae2614890c85fd729c2e82
+      internalID: 1559021944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_077
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12f833c2add737469642610d63f587e
+      internalID: 2049322243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_078
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f9d233593ddc84fb84bb74f62cf757
+      internalID: 322745062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_079
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371645cd8f4cc124992c6fc57d5cfef3
+      internalID: 260192869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_080
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1d5da03afe6294d9e1e868655c3f68
+      internalID: -163405202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_081
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2de55410e9aa2243b3afc1978bd4851
+      internalID: -759962860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_082
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87def17f979fc9841914e61e95ac9ec6
+      internalID: -1662160491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_083
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c728e40c076ce04eb2eb2da58af6669
+      internalID: -1058581017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_084
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420623ffb4f939c479f48e27a9b8b92f
+      internalID: -920622930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_085
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d3fb1178c11a845ba13fbd0fdf06e7
+      internalID: 764455698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_086
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc677e3624dc97b4e98062e9d69dbe17
+      internalID: -743638187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_087
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 264
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3affe48e1c05348babe238d5a521b1
+      internalID: -157520973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_088
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd75c2a87a8c5774e93f90f0675e8ad8
+      internalID: 1717358670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_089
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2126d9f5f303345a17606bacf6b9ae
+      internalID: 1775729471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningStrike_090
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9958d7f6439a45440b45dc7c47e47683
+      internalID: 1613688541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 803913db69b2b4a4e8b0bad3682e36e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LightningStrike_000: -473748825
+      LightningStrike_001: -195616221
+      LightningStrike_002: 1145774792
+      LightningStrike_003: 1842684403
+      LightningStrike_004: -1175091001
+      LightningStrike_005: 1228311740
+      LightningStrike_006: -1864784000
+      LightningStrike_007: -1090245028
+      LightningStrike_008: -1470391712
+      LightningStrike_009: -151769399
+      LightningStrike_010: 1192735138
+      LightningStrike_011: -1056151516
+      LightningStrike_012: 1803806045
+      LightningStrike_013: -823019620
+      LightningStrike_014: -808491909
+      LightningStrike_015: 145102069
+      LightningStrike_016: -1680947192
+      LightningStrike_017: -2113649966
+      LightningStrike_018: 2032957993
+      LightningStrike_019: 297305517
+      LightningStrike_020: -701675495
+      LightningStrike_021: -425924499
+      LightningStrike_022: 2033530106
+      LightningStrike_023: 1456282162
+      LightningStrike_024: -1544918538
+      LightningStrike_025: 1735790087
+      LightningStrike_026: -1522337778
+      LightningStrike_027: -2075214335
+      LightningStrike_028: -1264955197
+      LightningStrike_029: -379663687
+      LightningStrike_030: -32035688
+      LightningStrike_031: -1510076368
+      LightningStrike_032: 1985891956
+      LightningStrike_033: 286399733
+      LightningStrike_034: 161618823
+      LightningStrike_035: -1873524873
+      LightningStrike_036: 320148414
+      LightningStrike_037: -945174608
+      LightningStrike_038: -3936584
+      LightningStrike_039: -1813866142
+      LightningStrike_040: -208757192
+      LightningStrike_041: -129728089
+      LightningStrike_042: -1889996196
+      LightningStrike_043: -655756126
+      LightningStrike_044: -402885150
+      LightningStrike_045: 1607029464
+      LightningStrike_046: 857091593
+      LightningStrike_047: 1608692786
+      LightningStrike_048: 131375215
+      LightningStrike_049: -1926625548
+      LightningStrike_050: 1303228710
+      LightningStrike_051: -1054176781
+      LightningStrike_052: 1103940382
+      LightningStrike_053: 1622779430
+      LightningStrike_054: -346726594
+      LightningStrike_055: -1048596338
+      LightningStrike_056: 687876439
+      LightningStrike_057: -1138871854
+      LightningStrike_058: -544669787
+      LightningStrike_059: 1471301258
+      LightningStrike_060: 1006919476
+      LightningStrike_061: 262688224
+      LightningStrike_062: 337935113
+      LightningStrike_063: -600810897
+      LightningStrike_064: -1773921662
+      LightningStrike_065: 251693194
+      LightningStrike_066: -1589602276
+      LightningStrike_067: -355905923
+      LightningStrike_068: -1589332985
+      LightningStrike_069: 1821109821
+      LightningStrike_070: 671348102
+      LightningStrike_071: 1195476244
+      LightningStrike_072: -712921333
+      LightningStrike_073: -1471690119
+      LightningStrike_074: 1118947191
+      LightningStrike_075: -1266281120
+      LightningStrike_076: 1559021944
+      LightningStrike_077: 2049322243
+      LightningStrike_078: 322745062
+      LightningStrike_079: 260192869
+      LightningStrike_080: -163405202
+      LightningStrike_081: -759962860
+      LightningStrike_082: -1662160491
+      LightningStrike_083: -1058581017
+      LightningStrike_084: -920622930
+      LightningStrike_085: 764455698
+      LightningStrike_086: -743638187
+      LightningStrike_087: -157520973
+      LightningStrike_088: 1717358670
+      LightningStrike_089: 1775729471
+      LightningStrike_090: 1613688541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

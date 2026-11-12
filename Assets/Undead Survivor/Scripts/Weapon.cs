@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class Weapon : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     float timer;
     Player player;
+    ItemData data;
+
+    public bool IsAreaWeapon => data != null &&
+        (data.itemType == ItemData.ItemType.FireBreath || data.itemType == ItemData.ItemType.LightningStrike);
 
     void Awake()
     {
@@ -36,7 +41,10 @@ public class Weapon : MonoBehaviour
                 if (timer >= speed)
                 {
                     timer = 0;
-                    Fire();
+                    if (IsAreaWeapon)
+                        FireAreaWeapon();
+                    else
+                        Fire();
                 }
                 break;
         }
@@ -63,16 +71,25 @@ public class Weapon : MonoBehaviour
 
         //property set
         id = data.itemId;
+        this.data = data;
         damage = data.baseDamage;
         count = data.baseCount;
 
+        bool foundPrefab = false;
         for (int i = 0; i < GameManager.instance.poolManager.prefabs.Length; i++)
         {
             if (data.projectile == GameManager.instance.poolManager.prefabs[i])
             {
                 prefabId = i;
+                foundPrefab = true;
                 break;
             }
+        }
+        if (IsAreaWeapon && !foundPrefab)
+        {
+            Debug.LogError("Weapon projectile is not registered in PoolManager: " + data.name, this);
+            enabled = false;
+            return;
         }
 
         switch (id)
@@ -86,11 +103,83 @@ public class Weapon : MonoBehaviour
                 break;
 
         }
-        Hand hand = player.hands[(int)data.itemType];
-        hand.sr.sprite = data.hand;
-        hand.gameObject.SetActive(true);
+        if (IsAreaWeapon)
+            speed = data.attackInterval;
+        else
+        {
+            Hand hand = player.hands[(int)data.itemType];
+            hand.sr.sprite = data.hand;
+            hand.gameObject.SetActive(true);
+        }
 
         player.BroadcastMessage("ApplyGear", SendMessageOptions.DontRequireReceiver);
+    }
+
+    public void SetAreaAttackRate(float rate)
+    {
+        speed = data.attackInterval * (1f - rate);
+    }
+
+    void FireAreaWeapon()
+    {
+        Vector2 origin = player.transform.position;
+        Collider2D[] hits = Physics2D.OverlapCircleAll(origin, player.scanner.scanRange, player.scanner.targetLayer);
+        List<Enemy> enemies = new List<Enemy>();
+        foreach (Collider2D hit in hits)
+        {
+            Enemy enemy = hit.GetComponentInParent<Enemy>();
+            if (enemy != null && enemy.IsAlive && !enemies.Contains(enemy))
+                enemies.Add(enemy);
+        }
+
+        if (enemies.Count == 0)
+            return;
+
+        if (data.itemType == ItemData.ItemType.FireBreath)
+        {
+            Enemy nearest = enemies[0];
+            float nearestDistance = ((Vector2)nearest.transform.position - origin).sqrMagnitude;
+            foreach (Enemy enemy in enemies)
+            {
+                float distance = ((Vector2)enemy.transform.position - origin).sqrMagnitude;
+                if (distance < nearestDistance)
+                {
+                    nearest = enemy;
+                    nearestDistance = distance;
+                }
+            }
+
+            Vector2 direction = ((Vector2)nearest.transform.position - origin).normalized;
+            if (direction == Vector2.zero)
+                direction = Vector2.right;
+            float levelScale = 1f + count * 0.01f;
+            // effectScale is visual only; damage range grows with level alone.
+            WeaponEffect effect = GameManager.instance.poolManager.Get(prefabId).GetComponent<WeaponEffect>();
+            effect.PlayFire(player.transform, direction, data.effectScale * levelScale, data.attackRange * levelScale, damage, player.scanner.targetLayer);
+            return;
+        }
+
+        List<Vector2> positions = new List<Vector2>();
+        while (enemies.Count > 0 && positions.Count < count)
+        {
+            int index = Random.Range(0, enemies.Count);
+            Vector2 position = enemies[index].transform.position;
+            enemies.RemoveAt(index);
+            bool duplicate = false;
+            foreach (Vector2 selected in positions)
+            {
+                if ((selected - position).sqrMagnitude < 0.0001f)
+                {
+                    duplicate = true;
+                    break;
+                }
+            }
+            if (duplicate)
+                continue;
+            positions.Add(position);
+            WeaponEffect effect = GameManager.instance.poolManager.Get(prefabId).GetComponent<WeaponEffect>();
+            effect.PlayLightning(position, data.areaRadius, damage, player.scanner.targetLayer);
+        }
     }
     void Batch()
     {

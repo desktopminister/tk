@@ -9,11 +9,22 @@ public class Enemy : MonoBehaviour
     public float health;
     public float maxHealth;
     public RuntimeAnimatorController[] animatorController;
+    public float deadDelay = 0.5f;
+    public float flashDuration = 0.08f;
+    public float knockbackForce = 3f;
+    public float knockbackDuration = 0.15f;
+
+    // GUI/Text Shader draws the sprite's alpha shape in a solid color
+    static Material flashMaterial;
 
     bool isLive;
+    public bool IsAlive => isLive;
+    bool isHit;
     Rigidbody2D rb;
     Collider2D col;
     SpriteRenderer sr;
+    Material defaultMaterial;
+    Coroutine hitRoutine;
     WaitForFixedUpdate wait;
 
     void Awake()
@@ -23,13 +34,16 @@ public class Enemy : MonoBehaviour
         anim = GetComponent<Animator>();
         col = GetComponent<Collider2D>();
         wait = new WaitForFixedUpdate();
+        defaultMaterial = sr.sharedMaterial;
+        if (flashMaterial == null)
+            flashMaterial = new Material(Shader.Find("GUI/Text Shader")) { color = Color.white };
     }
 
     void FixedUpdate()
     {
         if (!GameManager.instance.isLive)
             return;
-        if (!isLive || anim.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
+        if (!isLive || isHit || anim.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
             return;
 
         Vector2 dirVec = target.position - rb.position;
@@ -56,6 +70,8 @@ public class Enemy : MonoBehaviour
         isLive = true;
         col.enabled = true;
         rb.simulated = true;
+        isHit = false;
+        sr.sharedMaterial = defaultMaterial;
         sr.sortingOrder = 2;
         anim.SetBool("Dead", false);
         health = maxHealth;
@@ -73,8 +89,18 @@ public class Enemy : MonoBehaviour
     {
         if (!collision.CompareTag("Bullet") || !isLive)
             return;
-        health -=collision.GetComponent<Bullet>().damage;
-        StartCoroutine(Knockback());
+        TakeDamage(collision.GetComponent<Bullet>().damage);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        if (!isLive)
+            return;
+
+        health -= damage;
+        if (hitRoutine != null)
+            StopCoroutine(hitRoutine);
+        hitRoutine = StartCoroutine(HitRoutine());
 
         if (health > 0)
         {
@@ -89,18 +115,44 @@ public class Enemy : MonoBehaviour
             anim.SetBool("Dead", true);
             GameManager.instance.kill++;
             GameManager.instance.GetExp();
+            StartCoroutine(DeadRoutine());
         }
     }
 
-    IEnumerator Knockback()
+    IEnumerator DeadRoutine()
     {
-        yield return wait;
-        Vector3 playerPos = GameManager.instance.player.transform.position;
-        Vector3 dirVec = transform.position - playerPos;
-        rb.AddForce(dirVec.normalized * 3, ForceMode2D.Impulse);
+        // Wait for the animator to enter the dead state before reading its length
+        yield return null;
+        while (anim.IsInTransition(0))
+            yield return null;
+
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length + deadDelay);
+        gameObject.SetActive(false);
     }
+
+    IEnumerator HitRoutine()
+    {
+        isHit = true;
+        rb.linearVelocity = Vector2.zero;
+
+        sr.sharedMaterial = flashMaterial;
+        yield return new WaitForSeconds(flashDuration);
+        sr.sharedMaterial = defaultMaterial;
+
+        if (isLive)
+        {
+            yield return wait;
+            Vector3 dirVec = transform.position - GameManager.instance.player.transform.position;
+            rb.AddForce(dirVec.normalized * knockbackForce, ForceMode2D.Impulse);
+            yield return new WaitForSeconds(knockbackDuration);
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        isHit = false;
+        hitRoutine = null;
+    }
+    // Animation event receiver kept for existing clips; despawn is handled by DeadRoutine
     void Dead()
     {
-        gameObject.SetActive(false);
     }
 }

@@ -42,6 +42,11 @@ public class Gear : MonoBehaviour
         Weapon[] weapons = transform.parent.GetComponentsInChildren<Weapon>();
         foreach (Weapon weapon in weapons)
         {
+            if (weapon.IsAreaWeapon)
+            {
+                weapon.SetAreaAttackRate(rate);
+                continue;
+            }
             switch (weapon.id)
             {
                 case 0:

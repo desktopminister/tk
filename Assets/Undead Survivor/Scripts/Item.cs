@@ -34,6 +34,14 @@ public class Item : MonoBehaviour
             case ItemData.ItemType.Ranged:
                 textDesc.text = string.Format(data.itemDesc, data.damages[level] * 100, data.counts[level]);
                 break;
+            case ItemData.ItemType.FireBreath:
+            case ItemData.ItemType.LightningStrike:
+                textDesc.text = level == 0
+                    ? (data.itemType == ItemData.ItemType.FireBreath
+                        ? "가장 가까운 적 방향으로 불을 뿜습니다."
+                        : "범위 내 무작위 적에게 번개를 떨어뜨립니다.")
+                    : string.Format(data.itemDesc, data.damages[level] * 100, data.counts[level]);
+                break;
             case ItemData.ItemType.Glove:
             case ItemData.ItemType.Shoe:
                 textDesc.text = string.Format(data.itemDesc, data.damages[level] * 100);
@@ -54,6 +62,8 @@ public class Item : MonoBehaviour
         {
             case ItemData.ItemType.Melee:
             case ItemData.ItemType.Ranged:
+            case ItemData.ItemType.FireBreath:
+            case ItemData.ItemType.LightningStrike:
                 // Implement ranged weapon click logic
                 if (level == 0)
                 {
@@ -65,7 +75,10 @@ public class Item : MonoBehaviour
                 {
                     float nextDamage = data.damages[level];
                     int nextCount = 0;
-                    nextDamage += data.baseDamage * data.damages[level];
+                    if (data.itemType == ItemData.ItemType.FireBreath || data.itemType == ItemData.ItemType.LightningStrike)
+                        nextDamage = data.baseDamage * (1f + data.damages[level]);
+                    else
+                        nextDamage += data.baseDamage * data.damages[level];
                     nextCount += data.counts[level];
                     weapon.LevelUp(nextDamage, nextCount);
                 }

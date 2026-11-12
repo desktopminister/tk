@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class LevelUp : MonoBehaviour
 {
@@ -20,7 +22,8 @@ public class LevelUp : MonoBehaviour
     public void Hide()
     {
         rect.localScale = Vector3.zero;
-        GameManager.instance.Resume();
+        if (!GameManager.instance.ShowPendingLevelUp())
+            GameManager.instance.Resume();
     }
 
     public void Select(int index)
@@ -36,28 +39,27 @@ public class LevelUp : MonoBehaviour
             item.gameObject.SetActive(false);
         }
 
-        // 2. 그 중에서 랜덤하게 3개 아이템만 활성화
-        int[] ran = new int[3];
-        while (true)
+        List<Item> available = new List<Item>();
+        Item heal = null;
+        foreach (Item item in items)
         {
-            ran[0] = Random.Range(0, items.Length);
-            ran[1] = Random.Range(0, items.Length);
-            ran[2] = Random.Range(0, items.Length);
-            if (ran[0] != ran[1] && ran[0] != ran[2] && ran[1] != ran[2])
-                break;
-        }                                   
-        for (int i = 0; i < ran.Length; i++)
+            if (item.data.itemType == ItemData.ItemType.Heal)
+                heal = item;
+            if (item.level < item.data.damages.Length)
+                available.Add(item);
+        }
+        if (available.Count == 0 && heal != null)
         {
-            Item ranitem = items[ran[i]];
-            // 3. 만렙 아이템의 경우에는 heal 아이템으로 대체
-            if (ranitem.level == ranitem.data.damages.Length)
-            {
-                items[4].gameObject.SetActive(true);
-            }
-            else
-            {
-                ranitem.gameObject.SetActive(true);   
-            }
+            heal.level = 0;
+            heal.GetComponent<Button>().interactable = true;
+            available.Add(heal);
+        }
+
+        for (int i = 0; i < 3 && available.Count > 0; i++)
+        {
+            int index = Random.Range(0, available.Count);
+            available[index].gameObject.SetActive(true);
+            available.RemoveAt(index);
         }
     }
 }
