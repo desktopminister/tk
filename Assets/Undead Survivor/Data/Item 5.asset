@@ -30,6 +30,6 @@ MonoBehaviour:
   projectile: {fileID: 3807695540791843370, guid: 5f83858f334ed2d409c5758df94befbc, type: 3}
   hand: {fileID: 0}
   attackInterval: 2
-  attackRange: 3.2
+  attackRange: 0.8
   areaRadius: 0
-  effectScale: 1.5
+  effectScale: 0.6

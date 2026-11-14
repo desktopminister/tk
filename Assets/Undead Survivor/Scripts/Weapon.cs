@@ -178,7 +178,7 @@ public class Weapon : MonoBehaviour
                 continue;
             positions.Add(position);
             WeaponEffect effect = GameManager.instance.poolManager.Get(prefabId).GetComponent<WeaponEffect>();
-            effect.PlayLightning(position, data.areaRadius, damage, player.scanner.targetLayer);
+            effect.PlayLightning(position, data.effectScale, data.areaRadius, damage, player.scanner.targetLayer);
         }
     }
     void Batch()
@@ -197,7 +197,7 @@ public class Weapon : MonoBehaviour
             }
 
             float angle = i * 360f / count;
-            bullet.localPosition = Quaternion.Euler(0f, 0f, angle) * Vector3.up * 1.7f;
+            bullet.localPosition = Quaternion.Euler(0f, 0f, angle) * Vector3.up * 0.425f;
             bullet.rotation = Quaternion.identity;
             bullet.GetComponent<Bullet>().Init(damage, -1, bullet.up); // -1 is infinity pierce.
         }

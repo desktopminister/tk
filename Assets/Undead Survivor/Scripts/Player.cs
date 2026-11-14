@@ -48,10 +48,15 @@ public class Player : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
+        TakeDamage(Time.deltaTime * 10);
+    }
+
+    public void TakeDamage(float damage)
+    {
         if (!GameManager.instance.isLive)
             return;
         
-        GameManager.instance.health -= Time.deltaTime * 10;
+        GameManager.instance.health -= damage;
 
         if (GameManager.instance.health <= 0)
         {

@@ -56,12 +56,12 @@ public class WeaponEffect : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void PlayLightning(Vector2 position, float radius, float damage, LayerMask targetLayer)
+    public void PlayLightning(Vector2 position, float scale, float radius, float damage, LayerMask targetLayer)
     {
         followTarget = null;
         transform.position = position;
         transform.rotation = Quaternion.identity;
-        transform.localScale = Vector3.one;
+        transform.localScale = Vector3.one * scale;
         animator.Play(0, 0, 0f);
         animator.Update(0f);
         StartCoroutine(Strike(position, radius, damage, targetLayer));

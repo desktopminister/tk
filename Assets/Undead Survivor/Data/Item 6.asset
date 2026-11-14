@@ -30,4 +30,5 @@ MonoBehaviour:
   hand: {fileID: 0}
   attackInterval: 2
   attackRange: 0
-  areaRadius: 0.8
+  areaRadius: 0.2
+  effectScale: 0.25

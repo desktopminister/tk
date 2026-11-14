@@ -11,8 +11,10 @@ public class Enemy : MonoBehaviour
     public RuntimeAnimatorController[] animatorController;
     public float deadDelay = 0.5f;
     public float flashDuration = 0.08f;
-    public float knockbackForce = 3f;
+    public float knockbackForce = 0.75f;
     public float knockbackDuration = 0.15f;
+    [Tooltip("Enemy arrow prefab index in PoolManager. Required for ranged spawn data.")]
+    public int arrowPrefabIndex = -1;
 
     // GUI/Text Shader draws the sprite's alpha shape in a solid color
     static Material flashMaterial;
@@ -26,6 +28,8 @@ public class Enemy : MonoBehaviour
     Material defaultMaterial;
     Coroutine hitRoutine;
     WaitForFixedUpdate wait;
+    SpawnData attackData;
+    float attackTimer;
 
     void Awake()
     {
@@ -47,9 +51,33 @@ public class Enemy : MonoBehaviour
             return;
 
         Vector2 dirVec = target.position - rb.position;
+        if (attackData != null && attackData.usesRangedAttack
+            && dirVec.sqrMagnitude <= attackData.attackRange * attackData.attackRange)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
         Vector2 nextVec = dirVec.normalized * speed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + nextVec);
         rb.linearVelocity = Vector2.zero;
+    }
+
+    void Update()
+    {
+        if (!GameManager.instance.isLive || !isLive || isHit
+            || attackData == null || !attackData.usesRangedAttack)
+            return;
+
+        attackTimer += Time.deltaTime;
+        Vector2 direction = target.position - rb.position;
+        if (direction.sqrMagnitude > attackData.attackRange * attackData.attackRange
+            || direction.sqrMagnitude < 0.0001f || attackTimer < attackData.attackInterval)
+            return;
+
+        attackTimer = 0f;
+        EnemyArrow arrow = GameManager.instance.poolManager.Get(arrowPrefabIndex).GetComponent<EnemyArrow>();
+        Vector3 origin = sr.bounds.center + (Vector3)direction.normalized * 0.2f;
+        arrow.Init(origin, direction.normalized, attackData.arrowDamage, attackData.arrowSpeed);
     }
 
     void LateUpdate()
@@ -75,6 +103,9 @@ public class Enemy : MonoBehaviour
         sr.sortingOrder = 2;
         anim.SetBool("Dead", false);
         health = maxHealth;
+        attackData = null;
+        attackTimer = 0f;
+        rb.linearVelocity = Vector2.zero;
     }
 
     public void Init(SpawnData spawnData)
@@ -83,6 +114,8 @@ public class Enemy : MonoBehaviour
         maxHealth = spawnData.health;
         speed = spawnData.speed;
         health = maxHealth;
+        attackData = spawnData;
+        attackTimer = 0f;
     }
 
     void OnTriggerEnter2D(Collider2D collision)

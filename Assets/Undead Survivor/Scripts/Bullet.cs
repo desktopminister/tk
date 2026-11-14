@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
 
         if (per > -1)
         {
-            rb.linearVelocity = dir * 15f;
+            rb.linearVelocity = dir * 3.75f;
         }
     }
 

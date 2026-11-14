@@ -156,7 +156,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 9
   spritePivot: {x: 0.5, y: 0.7125}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1025,14 +1025,6 @@ TextureImporter:
     nameFileIdTable:
       fireball_0: 1000000000000733654
       fireball_1: 1000000000107076080
-      fireball_2: 1000000000204005103
-      fireball_3: 1000000000305470755
-      fireball_4: 1000000000410901720
-      fireball_5: 1000000000508888473
-      fireball_6: 1000000000607418322
-      fireball_7: 1000000000714556843
-      fireball_8: 1000000000805461754
-      fireball_9: 1000000000909953847
       fireball_10: 1000000001015227274
       fireball_11: 1000000001107348307
       fireball_12: 1000000001203105447
@@ -1043,6 +1035,7 @@ TextureImporter:
       fireball_17: 1000000001710365667
       fireball_18: 1000000001814113940
       fireball_19: 1000000001916694472
+      fireball_2: 1000000000204005103
       fireball_20: 1000000002001358318
       fireball_21: 1000000002100912113
       fireball_22: 1000000002206895740
@@ -1053,12 +1046,19 @@ TextureImporter:
       fireball_27: 1000000002711239904
       fireball_28: 1000000002802872443
       fireball_29: 1000000002913894005
+      fireball_3: 1000000000305470755
       fireball_30: 1000000003003115001
       fireball_31: 1000000003114647584
       fireball_32: 1000000003203346875
       fireball_33: 1000000003311168782
       fireball_34: 1000000003409599143
       fireball_35: 1000000003507555030
+      fireball_4: 1000000000410901720
+      fireball_5: 1000000000508888473
+      fireball_6: 1000000000607418322
+      fireball_7: 1000000000714556843
+      fireball_8: 1000000000805461754
+      fireball_9: 1000000000909953847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
