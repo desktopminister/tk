@@ -41,7 +41,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399456817023787441}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 0.25, y: 0.25, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -105,7 +105,7 @@ Tilemap:
   m_TileSpriteArray:
   - serializedVersion: 2
     m_RefCount: 1
-    m_Data: {fileID: 2059901357, guid: 03e972eff60b0c84cae562d4f9a78c54, type: 3}
+    m_Data: {fileID: -1801711979, guid: 03e972eff60b0c84cae562d4f9a78c54, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
     m_RefCount: 1

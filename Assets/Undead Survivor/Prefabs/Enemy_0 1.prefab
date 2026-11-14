@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 7233286727416682797}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.99, y: -0.13787, z: 0}
+  m_LocalPosition: {x: -1.4975, y: -0.0344675, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -63,7 +63,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 8bc26d3e9e987c64982866867dd4b0ad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -143,6 +143,11 @@ MonoBehaviour:
   animatorController:
   - {fileID: 9100000, guid: 97162956eb7805e46a8889d7ecb0a1cc, type: 2}
   - {fileID: 9100000, guid: da807af5c74861c41be78164ed406f63, type: 2}
+  deadDelay: 0.5
+  flashDuration: 0.08
+  knockbackForce: 0.75
+  knockbackDuration: 0.15
+  arrowPrefabIndex: 5
 --- !u!114 &1248394115309303134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +195,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.4, y: 1.5}
+  m_Size: {x: 0.35, y: 0.375}
   m_Direction: 0
 --- !u!95 &1482543087882994396
 Animator:
