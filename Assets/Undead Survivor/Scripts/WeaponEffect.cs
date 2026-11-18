@@ -39,6 +39,7 @@ public class WeaponEffect : MonoBehaviour
         transform.localScale = Vector3.one * scale;
         animator.Play(0, 0, 0f);
         animator.Update(0f);
+        TKGameAudio.Play(TKGameAudio.Cue.FireBreath);
         StartCoroutine(Burn(owner, direction, range, damage, targetLayer));
     }
 
@@ -73,7 +74,10 @@ public class WeaponEffect : MonoBehaviour
         while (!GameManager.instance.isLive && Time.timeScale == 0f)
             yield return null;
         if (GameManager.instance.isLive)
+        {
+            TKGameAudio.Play(TKGameAudio.Cue.Lightning);
             DamageEnemies(position, radius, damage, targetLayer, Vector2.zero, false);
+        }
         yield return new WaitForSeconds(LightningDuration - LightningImpactTime);
         gameObject.SetActive(false);
     }

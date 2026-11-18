@@ -124,7 +124,12 @@ namespace TK.EditorTools
             // 정수 UI 배율 + 픽셀 퍼펙트 캔버스 + 전체 텍스트 폰트 교체
             canvas.pixelPerfect = false; // 정점별 반올림이 움직이는 글자를 1px씩 일그러뜨림 → 위치는 직접 정수/격자 스냅
             if (!canvas.GetComponent<PixelUIScaler>()) canvas.gameObject.AddComponent<PixelUIScaler>();
-            foreach (var t in canvas.GetComponentsInChildren<Text>(true)) { t.font = font; EditorUtility.SetDirty(t); }
+            foreach (var t in canvas.GetComponentsInChildren<Text>(true))
+            {
+                if (t.GetComponentInParent<TKTitleScreen>(true)) continue;
+                t.font = font;
+                EditorUtility.SetDirty(t);
+            }
 
             RestyleUI(canvas, skin, log);
             ApplyThreeKingdomsTexts(canvas, skin, log);
@@ -308,11 +313,11 @@ namespace TK.EditorTools
         static Font ConfigurePixelFont()
         {
             var fi = AssetImporter.GetAtPath(FontPath) as TrueTypeFontImporter;
-            if (fi != null && (fi.fontRenderingMode != FontRenderingMode.HintedRaster || fi.fontSize != 16 || fi.characterPadding != 0))
+            if (fi != null && (fi.fontRenderingMode != FontRenderingMode.HintedRaster || fi.fontSize != 16 || fi.characterPadding != 2))
             {
                 fi.fontRenderingMode = FontRenderingMode.HintedRaster;
                 fi.fontSize = 16;
-                fi.characterPadding = 0;
+                fi.characterPadding = 2; // 확대할 때 인접 글리프의 픽셀이 섞이지 않도록 여백 확보
                 fi.SaveAndReimport();
             }
             return AssetDatabase.LoadAssetAtPath<Font>(FontPath);
@@ -787,16 +792,15 @@ namespace TK.EditorTools
                 }
             }
 
-            // ---- 시작/다시하기 버튼
-            foreach (var path in new[] { "GameStart/Button Start", "GameResult/Button Restart" })
+            // ---- 다시하기 버튼 (시작 화면은 GameStart 프리팹에서 편집)
+            var restart = R("GameResult/Button Restart");
+            if (restart)
             {
-                var b = R(path);
-                if (!b) continue;
-                b.anchoredPosition = new Vector2(0, -96);
-                b.sizeDelta = new Vector2(144, 48);
-                b.localScale = Vector3.one;
-                Skin(b.GetComponent<Image>(), skin.button, Color.white);
-                SetFont(b.GetComponentInChildren<Text>(true), skin.titleSize, TextAnchor.MiddleCenter, Color.white);
+                restart.anchoredPosition = new Vector2(0, -96);
+                restart.sizeDelta = new Vector2(144, 48);
+                restart.localScale = Vector3.one;
+                Skin(restart.GetComponent<Image>(), skin.button, Color.white);
+                SetFont(restart.GetComponentInChildren<Text>(true), skin.titleSize, TextAnchor.MiddleCenter, Color.white);
             }
 
             EditorUtility.SetDirty(canvas.gameObject);
@@ -829,7 +833,6 @@ namespace TK.EditorTools
 
             Text Txt(string path) => (canvas.transform.Find(path) as RectTransform)?.GetComponentInChildren<Text>(true);
             void SetText(string path, string value) { var t = Txt(path); if (t) { t.text = value; EditorUtility.SetDirty(t); } }
-            SetText("GameStart/Button Start", "출진");
             SetText("GameResult/Button Restart", "재출진");
             SetText("LevelUp/Panel/TextTitle", "공적 달성!");
 
@@ -857,12 +860,6 @@ namespace TK.EditorTools
                 return t;
             }
 
-            var start = canvas.transform.Find("GameStart");
-            if (start)
-            {
-                TitleText(start, "GameTitle", "삼국 서바이버", skin.headlineSize, new Color(1f, 0.85f, 0.45f), new Vector2(0, 96));
-                TitleText(start, "GameSubtitle", "- 와룡 출사표 -", skin.bodySize, new Color(0.95f, 0.92f, 0.85f), new Vector2(0, 60));
-            }
             foreach (var (path, value, color) in new[]
             {
                 ("GameResult/Title Win", "대승!", new Color(1f, 0.85f, 0.4f)),

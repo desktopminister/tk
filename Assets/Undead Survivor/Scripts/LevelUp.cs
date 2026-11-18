@@ -15,6 +15,7 @@ public class LevelUp : MonoBehaviour
 
     public void Show()
     {
+        TKGameAudio.Play(TKGameAudio.Cue.LevelUp);
         Next();
         rect.localScale = Vector3.one;
         GameManager.instance.Stop();

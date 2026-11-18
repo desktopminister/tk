@@ -122,6 +122,7 @@ public class XpGemSystem : MonoBehaviour
 
         if (collected > 0)
         {
+            TKGameAudio.Play(TKGameAudio.Cue.Gem);
             gm.BeginDamageBatch();
             try { for (int k = 0; k < collected; k++) gm.GetExp(); }
             finally { gm.EndDamageBatch(); }

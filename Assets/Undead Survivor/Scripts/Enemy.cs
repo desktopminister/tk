@@ -117,6 +117,7 @@ public class Enemy : MonoBehaviour, IDamageable
         EnemyArrow arrow = GameManager.instance.poolManager.Get(arrowPrefabIndex).GetComponent<EnemyArrow>();
         Vector3 origin = sr.bounds.center + (Vector3)direction.normalized * 0.2f;
         arrow.Init(origin, direction.normalized, attackData.arrowDamage, attackData.arrowSpeed);
+        TKGameAudio.Play(TKGameAudio.Cue.Bow);
     }
 
     void LateUpdate()
@@ -179,6 +180,7 @@ public class Enemy : MonoBehaviour, IDamageable
 
         health -= damage;
         GameFeel.DamageNumber(transform.position, damage, false);
+        TKGameAudio.Play(TKGameAudio.Cue.Hit);
         if (hitRoutine != null)
             StopCoroutine(hitRoutine);
         hitRoutine = StartCoroutine(HitRoutine());

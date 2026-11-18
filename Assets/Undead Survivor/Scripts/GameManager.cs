@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public float maxPlayTime = 60f;
     [Tooltip("보스전 중에는 제한 시간이 끝나도 자동 승리하지 않음 (BossDirector 가 설정)")]
     public bool bossFightActive;
+    [SerializeField] bool useEndingScenes;
     [Header("#Player Info")]
     public float health;
     public float maxHealth = 100;
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
     public GameObject enemyCleaner;
     int damageBatchDepth;
     int pendingLevelUps;
+    bool ending;
     void Awake()
     {
         instance = this;
@@ -36,37 +38,37 @@ public class GameManager : MonoBehaviour
         health = maxHealth;
         uiLevelUp.Select(0);
         Resume();
+        TKGameAudio.BeginBattle();
     }
 
-    public void GameOver()
-    {
-        StartCoroutine(GameOverCoroutine());
-    }
+    public void GameOver() => EndBattle(false);
+    public void GameWin() => EndBattle(true);
 
-    IEnumerator GameOverCoroutine()
+    void EndBattle(bool victory)
     {
+        if (ending) return;
+        ending = true;
         isLive = false;
-        yield return new WaitForSeconds(0.5f);
+        TKGameAudio.EndBattle();
+        if (useEndingScenes) TKBattleEnding.Record(this);
+        if (victory) enemyCleaner.SetActive(true);
+        StartCoroutine(ShowEnding(victory));
+    }
+
+    IEnumerator ShowEnding(bool victory)
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        Stop();
+        if (useEndingScenes)
+        {
+            string scene = victory ? TKBattleEnding.VictoryScene : TKBattleEnding.DefeatScene;
+            SceneManager.LoadScene(SceneUtility.GetBuildIndexByScenePath(scene));
+            yield break;
+        }
 
         uiResult.gameObject.SetActive(true);
-        uiResult.Lose();
-        Stop();
-    }
-
-    public void GameWin()
-    {
-        StartCoroutine(GameWinCoroutine());
-    }
-
-    IEnumerator GameWinCoroutine()
-    {
-        isLive = false;
-        enemyCleaner.SetActive(true);
-        yield return new WaitForSeconds(0.5f);
-
-        uiResult.gameObject.SetActive(true);
-        uiResult.Win();
-        Stop();
+        if (victory) uiResult.Win();
+        else uiResult.Lose();
     }
 
     public void GameRestart()

@@ -92,6 +92,7 @@ public class KongmingSkills : MonoBehaviour
             return false;
 
         var ring = TKPool.Spawn(trigramPrefab, transform.position, Quaternion.identity);
+        TKGameAudio.Play(TKGameAudio.Cue.Trigram);
         ring.Setup(trigramRadius, trigramDuration, trigramDamage * LevelScale, player.scanner.targetLayer);
         if (trigramCastFx)
             TKPool.Spawn(trigramCastFx, transform.position, Quaternion.identity);

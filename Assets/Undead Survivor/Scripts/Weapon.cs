@@ -207,6 +207,7 @@ public class Weapon : MonoBehaviour
 
         // 손끝에서 발사 + 시전 동작
         Vector3 targetPos = player.scanner.nearestTarget.position;
+        TKGameAudio.Play(TKGameAudio.Cue.FireArrow);
         player.PlayAttack(true, targetPos);
         Vector3 origin = player.HandPosition;
         Vector3 dir = (targetPos - origin).normalized;

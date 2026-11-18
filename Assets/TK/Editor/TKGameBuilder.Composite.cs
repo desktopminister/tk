@@ -37,8 +37,13 @@ namespace TK.EditorTools
                 if (SceneManager.sceneCount == 1) EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
                 else EditorSceneManager.CloseScene(composite, true);
             }
-            AssetDatabase.DeleteAsset(CompositeScenePath);
-            if (!AssetDatabase.CopyAsset(ScenePath, CompositeScenePath))
+            // Preserve the scene GUID referenced by the build settings when regenerating it.
+            if (AssetDatabase.LoadAssetAtPath<SceneAsset>(CompositeScenePath))
+            {
+                FileUtil.ReplaceFile(ScenePath, CompositeScenePath);
+                AssetDatabase.ImportAsset(CompositeScenePath, ImportAssetOptions.ForceUpdate);
+            }
+            else if (!AssetDatabase.CopyAsset(ScenePath, CompositeScenePath))
                 return "Demo 씬 복사 실패";
 
             var scene = EditorSceneManager.OpenScene(CompositeScenePath, OpenSceneMode.Additive);

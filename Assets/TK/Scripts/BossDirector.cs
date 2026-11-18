@@ -40,6 +40,7 @@ public class BossDirector : MonoBehaviour
     {
         var gm = GameManager.instance;
         gm.bossFightActive = true;
+        TKGameAudio.Play(TKGameAudio.Cue.Boss);
         var spawner = FindAnyObjectByType<Spawner>();
         if (spawner) spawner.enabled = false;
 

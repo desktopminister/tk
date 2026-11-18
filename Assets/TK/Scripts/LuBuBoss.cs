@@ -325,6 +325,7 @@ public class LuBuBoss : MonoBehaviour, IDamageable
         else if (shieldHits > 0) mul = shieldDamageMultiplier;
         Health -= damage * mul;
         GameFeel.DamageNumber(transform.position + new Vector3(0f, 0.9f, 0f), damage * mul, Stunned);
+        TKGameAudio.Play(TKGameAudio.Cue.Hit);
         anim.Flash(Stunned ? new Color(1f, 0.95f, 0.4f) : Color.white, 0.06f);
         if (Health <= 0f) Die();
     }

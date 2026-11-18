@@ -23,6 +23,7 @@ public class FireOrb : MonoBehaviour
         life = lifetime;
         delay = startDelay;
         launched = true;
+        if (delay <= 0f) TKGameAudio.Play(TKGameAudio.Cue.FireOrb);
     }
 
     void Update()
@@ -30,7 +31,12 @@ public class FireOrb : MonoBehaviour
         if (!launched || !GameManager.instance.isLive)
             return;
         float dt = Time.deltaTime;
-        if (delay > 0f) { delay -= dt; return; }
+        if (delay > 0f)
+        {
+            delay -= dt;
+            if (delay <= 0f) TKGameAudio.Play(TKGameAudio.Cue.FireOrb);
+            return;
+        }
 
         if (TKCombat.IsValid(target))
             targetPos = target.transform.position;
@@ -48,6 +54,7 @@ public class FireOrb : MonoBehaviour
 
     void Explode()
     {
+        TKGameAudio.Play(TKGameAudio.Cue.Blast);
         TKCombat.DamageCircle(transform.position, radius, damage, layer, hit =>
         {
             if (hit is LuBuBoss boss) boss.OnFireStrategyHit();

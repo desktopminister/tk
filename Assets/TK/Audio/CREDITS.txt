@@ -1,0 +1,40 @@
+삼국지 게임 사운드 크레딧
+
+타이틀 · 전투 음악
+LotusPond.ogg — Lotus Pond (loop mix), BiteMe Games
+DragonDance.ogg — Dragon Dance (loop mix), BiteMe Games
+https://bitemegames.itch.io/chinese-game-music
+제작자가 상업 게임 사용을 허용하며 크레딧 표기는 선택 사항입니다. 음원 팩 자체의 재판매는 금지합니다. 두 곡 모두 원본 반복 구간을 유지하고 WAV에서 Ogg Vorbis로 변환했습니다.
+
+승리 · 패배
+Taohua.ogg — Taohua, PeriTune (Sei Mutsuki). 원곡 MP3에서 반복되는 한 구절 전체를 편집해 승리 화면용 루프로 만들었습니다.
+https://peritune.com/blog/2021/03/03/taohua/
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+RampartRain.ogg — Rain (loopable), Ylmir (1.ogg)
+https://opengameart.org/content/rain-loopable
+
+이전 승리곡
+VictoryCadence.wav — 이 게임을 위해 작곡하고 발현악기 음색으로 합성한 단선율입니다.
+HyoshiAreaClear.ogg — Hyoshi Area Clear, Tozan. 시작 무음을 0.4초 줄인 보관용 음원입니다.
+https://opengameart.org/content/hyoshi-area-clear
+
+전투 · 수집 효과음
+Bow.wav, CastSwish.wav — Battle sound effects, artisticdude (게시자 Ogrebane)
+https://opengameart.org/content/battle-sound-effects
+원본 Bow.wav, swish_2.wav를 사용했으며 활소리 앞의 무음 0.075초를 줄였습니다.
+FireBurst.wav, ArmorHit.ogg, PlayerHit.ogg, JadeChime.ogg, WarGong.ogg, TrigramBell.ogg — 100 CC0 SFX, rubberduck
+https://opengameart.org/content/100-cc0-sfx
+각 원본은 explosion.ogg, hit_01.ogg, hit_03.ogg, bell_02.ogg, gong_01.ogg, bell_03.ogg입니다. 폭발음의 시작 무음 0.075초를 줄이고 WAV로 변환했습니다.
+
+위 OpenGameArt의 이전 승리곡, 빗소리, 전투 및 수집 효과음은 CC0 1.0으로 사용했습니다.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+술법 효과음
+FireArrowRelease.wav, FireOrbLaunch.wav, FireBreath.wav — SpritePilot의 Fireball을 발사 속도에 맞춰 편집하고 불티 소리를 합성했습니다. 불화살에는 위 artisticdude의 Bow.wav도 섞었습니다.
+TrigramWind.wav — SpritePilot의 Wind spell과 Portal을 겹쳐 팔진도가 펼쳐지는 소리를 만들었습니다.
+LightningStrike.wav — SpritePilot의 Lightning에서 방전음을 앞당기고 천둥의 저음을 겹친 뒤 여운을 줄였습니다.
+SpritePilot, Free Magic and Spell Sound Effects, CC0 1.0
+https://spritepilot.com/free-game-assets/sound-effects/magic
+
+출전 · 레벨업
+Select.wav, LevelUp.wav — 프로젝트에 이미 포함된 Undead Survivor Assets Pack의 원본을 참조합니다. 해당 팩의 라이선스가 적용됩니다.

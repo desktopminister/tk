@@ -91,6 +91,7 @@ public class Player : MonoBehaviour
             return;
         
         GameManager.instance.health -= damage;
+        if (damage > 0f) TKGameAudio.Play(TKGameAudio.Cue.Hurt);
         if (visual && hurtFlashCooldown <= 0f)
         {
             hurtFlashCooldown = 0.25f;
