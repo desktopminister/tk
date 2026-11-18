@@ -11,7 +11,7 @@ public class InventoryHUD : MonoBehaviour
 {
     public float slotSize = 40f;   // 16px 아이콘 x2 = 32 + 테두리
     public float gap = 2f;
-    public int slotsPerRow = 6;
+    public int slotsPerRow = 7;
 
     Item[] items;
     readonly List<(Image icon, Text level)> weaponSlots = new List<(Image, Text)>();

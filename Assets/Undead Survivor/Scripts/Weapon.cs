@@ -14,8 +14,8 @@ public class Weapon : MonoBehaviour
     Player player;
     ItemData data;
 
-    public bool IsAreaWeapon => data != null &&
-        (data.itemType == ItemData.ItemType.FireBreath || data.itemType == ItemData.ItemType.LightningStrike);
+    TKRelicStrike relic;
+    public bool IsAreaWeapon => data != null && data.UsesAreaAttack;
 
     void Awake()
     {
@@ -85,7 +85,9 @@ public class Weapon : MonoBehaviour
                 break;
             }
         }
-        if (IsAreaWeapon && !foundPrefab)
+        if (data.itemType == ItemData.ItemType.Relic)
+            relic = data.projectile.GetComponent<TKRelicStrike>();
+        else if (IsAreaWeapon && !foundPrefab)
         {
             Debug.LogError("Weapon projectile is not registered in PoolManager: " + data.name, this);
             enabled = false;
@@ -122,6 +124,11 @@ public class Weapon : MonoBehaviour
 
     void FireAreaWeapon()
     {
+        if (relic)
+        {
+            relic.Cast(player, data, damage, count);
+            return;
+        }
         Vector2 origin = player.transform.position;
         // 공용 비할당 탐색(TKCombat) 사용 — 일반 적 + 보스, 가까운 순 정렬
         List<IDamageable> enemies = TKCombat.FindTargets(origin, player.scanner.scanRange, player.scanner.targetLayer);

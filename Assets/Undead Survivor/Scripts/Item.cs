@@ -43,6 +43,7 @@ public class Item : MonoBehaviour
             case ItemData.ItemType.Ranged:
             case ItemData.ItemType.FireBreath:
             case ItemData.ItemType.LightningStrike:
+            case ItemData.ItemType.Relic:
                 textDesc.text = string.Format(data.itemDesc, data.damages[level] * 100, data.counts[level]);
                 break;
             case ItemData.ItemType.Glove:
@@ -67,6 +68,7 @@ public class Item : MonoBehaviour
             case ItemData.ItemType.Ranged:
             case ItemData.ItemType.FireBreath:
             case ItemData.ItemType.LightningStrike:
+            case ItemData.ItemType.Relic:
                 // Implement ranged weapon click logic
                 if (level == 0)
                 {
@@ -78,7 +80,7 @@ public class Item : MonoBehaviour
                 {
                     float nextDamage = data.damages[level];
                     int nextCount = 0;
-                    if (data.itemType == ItemData.ItemType.FireBreath || data.itemType == ItemData.ItemType.LightningStrike)
+                    if (data.UsesAreaAttack)
                         nextDamage = data.baseDamage * (1f + data.damages[level]);
                     else
                         nextDamage += data.baseDamage * data.damages[level];

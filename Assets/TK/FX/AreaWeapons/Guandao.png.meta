@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 18d941f3ec2d5fb79bf2d7a79c3d8bba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 726307439605974453
+    second: Guandao_00
+  - first:
+      213: 851898208508396911
+    second: Guandao_01
+  - first:
+      213: 150915955549721912
+    second: Guandao_02
+  - first:
+      213: 590496248635409759
+    second: Guandao_03
+  - first:
+      213: 1057998903980946871
+    second: Guandao_04
+  - first:
+      213: 840074642253071646
+    second: Guandao_05
+  - first:
+      213: 633520581579085138
+    second: Guandao_06
+  - first:
+      213: 453967379409454441
+    second: Guandao_07
+  - first:
+      213: 250686614291375489
+    second: Guandao_08
+  - first:
+      213: 443326555654088075
+    second: Guandao_09
+  - first:
+      213: 1000427888978478549
+    second: Guandao_10
+  - first:
+      213: 498111641370256779
+    second: Guandao_11
+  - first:
+      213: 814265810967930261
+    second: Guandao_12
+  - first:
+      213: 613549527052293548
+    second: Guandao_13
+  - first:
+      213: 851217098436974020
+    second: Guandao_14
+  - first:
+      213: 967397887412397564
+    second: Guandao_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guandao_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b50077a4cc541a00800000000000000
+      internalID: 726307439605974453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_01
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 312
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f654fe638ec82db00800000000000000
+      internalID: 851898208508396911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_02
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 312
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835da711349281200800000000000000
+      internalID: 150915955549721912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_03
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 312
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f554d15a53dd13800800000000000000
+      internalID: 590496248635409759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5798cc564ceae00800000000000000
+      internalID: 1057998903980946871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_05
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 208
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15ce4caf6b88ab00800000000000000
+      internalID: 840074642253071646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_06
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2559be6cc97bac800800000000000000
+      internalID: 633520581579085138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_07
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 208
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965c0552de0dc4600800000000000000
+      internalID: 453967379409454441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18568c2c52e9a7300800000000000000
+      internalID: 250686614291375489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_09
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 104
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85624d4723072600800000000000000
+      internalID: 443326555654088075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 104
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5c4f15ddb32ed00800000000000000
+      internalID: 1000427888978478549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 104
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b856c5216e5a9e600800000000000000
+      internalID: 498111641370256779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5952d7fd07adc4b00800000000000000
+      internalID: 814265810967930261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca59f0c4b04c38800800000000000000
+      internalID: 613549527052293548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5131be07120db00800000000000000
+      internalID: 851217098436974020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guandao_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 136
+        height: 104
+      alignment: 9
+      pivot: {x: 0.32352941, y: 0.36538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5edabc043ec6d00800000000000000
+      internalID: 967397887412397564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guandao_00: 726307439605974453
+      Guandao_01: 851898208508396911
+      Guandao_02: 150915955549721912
+      Guandao_03: 590496248635409759
+      Guandao_04: 1057998903980946871
+      Guandao_05: 840074642253071646
+      Guandao_06: 633520581579085138
+      Guandao_07: 453967379409454441
+      Guandao_08: 250686614291375489
+      Guandao_09: 443326555654088075
+      Guandao_10: 1000427888978478549
+      Guandao_11: 498111641370256779
+      Guandao_12: 814265810967930261
+      Guandao_13: 613549527052293548
+      Guandao_14: 851217098436974020
+      Guandao_15: 967397887412397564
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

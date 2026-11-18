@@ -56,7 +56,9 @@ public class ProceduralSpriteAnim : MonoBehaviour
     {
         get
         {
-            float fwd = LookingRight ? 1f : -1f;
+            // A cast can turn the source before LateUpdate copies its facing to the visual.
+            bool flipped = source ? source.flipX : sr.flipX;
+            float fwd = spriteFacesRight != flipped ? 1f : -1f;
             Vector3 local = baseLocalPos + new Vector3(handPixels.x * fwd * Px, handPixels.y * Px, 0f);
             return transform.parent ? transform.parent.TransformPoint(local) : local;
         }

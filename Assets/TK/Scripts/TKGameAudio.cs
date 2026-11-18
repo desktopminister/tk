@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TKGameAudio : MonoBehaviour
 {
-    public enum Cue { Deploy, Bow, FireOrb, Blast, Hit, Hurt, Gem, LevelUp, Boss, Trigram, Lightning, FireBreath, FireArrow }
+    public enum Cue { Deploy, Bow, FireOrb, Blast, Hit, Hurt, Gem, LevelUp, Boss, Trigram, Lightning, FireBreath, FireArrow, BladeSwish }
 
     [Serializable]
     class Effect

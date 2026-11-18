@@ -6,10 +6,23 @@ public class LevelUp : MonoBehaviour
 {
     RectTransform rect;
     Item[] items;
+    [SerializeField] Item extraCardTemplate;
+    [SerializeField] ItemData[] extraRewards;
+    [SerializeField] TKStartingWeaponPicker startingWeaponPicker;
 
     void Awake()
     {
         rect = GetComponent<RectTransform>();
+        if (extraCardTemplate && extraRewards != null)
+        {
+            // The scene supplies an inactive card. Its Item reads the assigned data when first shown.
+            foreach (var reward in extraRewards)
+            {
+                var card = Instantiate(extraCardTemplate, extraCardTemplate.transform.parent);
+                card.name = reward.itemName;
+                card.data = reward;
+            }
+        }
         items = GetComponentsInChildren<Item>(true);
     }
 
@@ -27,9 +40,22 @@ public class LevelUp : MonoBehaviour
             GameManager.instance.Resume();
     }
 
-    public void Select(int index)
+    public void ChooseStartingWeapon(System.Action<Item> onChosen)
     {
-        items[index].OnClick();
+        var pool = new List<Item>();
+        foreach (var item in items)
+            if (item.data.startingWeapon)
+                pool.Add(item);
+
+        // Partial shuffle without replacement, keeping the inventory's Item instances.
+        int count = Mathf.Min(3, pool.Count);
+        for (int i = 0; i < count; i++)
+        {
+            int other = Random.Range(i, pool.Count);
+            (pool[i], pool[other]) = (pool[other], pool[i]);
+        }
+        var picker = Instantiate(startingWeaponPicker, rect.parent, false);
+        picker.Show(pool.GetRange(0, count), onChosen);
     }
 
     void Next()

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1bd7b5729cbe8468e8a74df828ef3d, type: 3}
+  m_Name: Item 8
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemType: 7
+  startingWeapon: 1
+  itemId: 8
+  itemName: 용담창
+  itemDesc: "기본 피해 +{0}%\n찌르기 사거리 +{1}%"
+  introDesc: 은빛 창끝이 일직선에 선 적을 모두 꿰뚫는다.
+  itemIcon: {fileID: 21300000, guid: 1753d8d1b21e5b749a33f7adbbe24efe, type: 3}
+  iconSmall: {fileID: 21300000, guid: 1576aae5e9935253ace4c8783760e7aa, type: 3}
+  baseDamage: 7
+  baseCount: 0
+  damages:
+  - 0
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1
+  counts: 000000000a0000000a0000000a0000000a000000
+  projectile: {fileID: 3807695540791843370, guid: 39e42d1342dc53edb9da8aad65100701, type: 3}
+  hand: {fileID: 0}
+  attackInterval: 1.55
+  attackRange: 1.84
+  areaRadius: 0.14
+  effectScale: 1.3333333

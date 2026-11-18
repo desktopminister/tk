@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Item 5
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemType: 5
+  startingWeapon: 1
   itemId: 5
   itemName: "\uC801\uBCBD \uD654\uACF5"
   itemDesc: "\uD53C\uD574 {0}% \uC99D\uAC00\n\uD654\uC5FC \uBC94\uC704 {1}% \uC99D\uAC00"

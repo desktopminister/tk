@@ -30,12 +30,12 @@ public class TKTitleScreen : MonoBehaviour
         if (!Application.IsPlaying(gameObject)) return;
         // The title is hidden on deployment. Its sibling keeps playing through the battle.
         var sound = Instantiate(audioPrefab, transform.parent);
+        sound.PlayTitle();
         if (TKBattleEnding.ConsumeDeployment(gameObject.scene.path))
         {
             deploy.onClick.Invoke();
             return;
         }
-        sound.PlayTitle();
         for (int i = 0; i < embers.Length; i++)
         {
             var spark = TKUIRoot.NewImage("Ember", landscape, null, Color.white, false);

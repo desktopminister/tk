@@ -1,0 +1,1378 @@
+fileFormatVersion: 2
+guid: cde3ff3218255dc0a4dc311619f8b883
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 840155687542641991
+    second: FeatherFan_00
+  - first:
+      213: 157138124115354963
+    second: FeatherFan_01
+  - first:
+      213: 168542330967815430
+    second: FeatherFan_02
+  - first:
+      213: 599906182928098633
+    second: FeatherFan_03
+  - first:
+      213: 905171683988342061
+    second: FeatherFan_04
+  - first:
+      213: 520020861063185672
+    second: FeatherFan_05
+  - first:
+      213: 839307858716620242
+    second: FeatherFan_06
+  - first:
+      213: 21260570996901217
+    second: FeatherFan_07
+  - first:
+      213: 993088060618663281
+    second: FeatherFan_08
+  - first:
+      213: 253665634337928670
+    second: FeatherFan_09
+  - first:
+      213: 758576789837362641
+    second: FeatherFan_10
+  - first:
+      213: 867184335896548831
+    second: FeatherFan_11
+  - first:
+      213: 889399175322973612
+    second: FeatherFan_12
+  - first:
+      213: 473028925548078485
+    second: FeatherFan_13
+  - first:
+      213: 1062969271841797507
+    second: FeatherFan_14
+  - first:
+      213: 1055187738382083385
+    second: FeatherFan_15
+  - first:
+      213: 335176123638871328
+    second: FeatherFan_16
+  - first:
+      213: 968836112141280553
+    second: FeatherFan_17
+  - first:
+      213: 114357895387907344
+    second: FeatherFan_18
+  - first:
+      213: 554714843096573406
+    second: FeatherFan_19
+  - first:
+      213: 1091591198050186579
+    second: FeatherFan_20
+  - first:
+      213: 730450979989194187
+    second: FeatherFan_21
+  - first:
+      213: 25335632969123291
+    second: FeatherFan_22
+  - first:
+      213: 516212552013329912
+    second: FeatherFan_23
+  - first:
+      213: 669073840158897546
+    second: FeatherFan_24
+  - first:
+      213: 579253155200906726
+    second: FeatherFan_25
+  - first:
+      213: 980113123337344468
+    second: FeatherFan_26
+  - first:
+      213: 567785919432693131
+    second: FeatherFan_27
+  - first:
+      213: 679326051166233934
+    second: FeatherFan_28
+  - first:
+      213: 92746357317555613
+    second: FeatherFan_29
+  - first:
+      213: 154645035978757539
+    second: FeatherFan_30
+  - first:
+      213: 880806074849797587
+    second: FeatherFan_31
+  - first:
+      213: 1034483366619493753
+    second: FeatherFan_32
+  - first:
+      213: 747998805839447494
+    second: FeatherFan_33
+  - first:
+      213: 251076888389637594
+    second: FeatherFan_34
+  - first:
+      213: 784120166196602304
+    second: FeatherFan_35
+  - first:
+      213: 68754651714217298
+    second: FeatherFan_36
+  - first:
+      213: 915810303624652111
+    second: FeatherFan_37
+  - first:
+      213: 806325815266092359
+    second: FeatherFan_38
+  - first:
+      213: 576631377517929823
+    second: FeatherFan_39
+  - first:
+      213: 508871158682985919
+    second: FeatherFan_40
+  - first:
+      213: 824408515502404955
+    second: FeatherFan_41
+  - first:
+      213: 298992476419982769
+    second: FeatherFan_42
+  - first:
+      213: 4209130794747313
+    second: FeatherFan_43
+  - first:
+      213: 973867842981242284
+    second: FeatherFan_44
+  - first:
+      213: 477065621781648807
+    second: FeatherFan_45
+  - first:
+      213: 487034598693017042
+    second: FeatherFan_46
+  - first:
+      213: 654146157972239849
+    second: FeatherFan_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FeatherFan_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745d0008525d8ab00800000000000000
+      internalID: 840155687542641991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_01
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 624
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35521949a444e2200800000000000000
+      internalID: 157138124115354963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_02
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 624
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605f3f66b58c65200800000000000000
+      internalID: 168542330967815430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_03
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 624
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9456df3be7b435800800000000000000
+      internalID: 599906182928098633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_04
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 624
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d250edcc9d0df8c00800000000000000
+      internalID: 905171683988342061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_05
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 624
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805c67bc73c773700800000000000000
+      internalID: 520020861063185672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_06
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 624
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d57ff7fc02d5ab00800000000000000
+      internalID: 839307858716620242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_07
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1650efd60688b4000800000000000000
+      internalID: 21260570996901217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_08
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 520
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1756bdb545828cd00800000000000000
+      internalID: 993088060618663281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_09
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 520
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5bf6aec83358300800000000000000
+      internalID: 253665634337928670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 520
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5bc1d3291078a00800000000000000
+      internalID: 758576789837362641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 520
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd595e71f8bd80c00800000000000000
+      internalID: 867184335896548831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_12
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 520
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5b6a476d7c75c00800000000000000
+      internalID: 889399175322973612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 520
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59527c33d49809600800000000000000
+      internalID: 473028925548078485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385394fbbec60ce00800000000000000
+      internalID: 1062969271841797507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935ac9d48a7c4ae00800000000000000
+      internalID: 1055187738382083385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025ffaa98e8c6a400800000000000000
+      internalID: 335176123638871328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 416
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92560c59f4ff17d00800000000000000
+      internalID: 968836112141280553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0158bd366e7469100800000000000000
+      internalID: 114357895387907344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 416
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed56866f53eb2b700800000000000000
+      internalID: 554714843096573406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_20
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 416
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35579bf396c162f00800000000000000
+      internalID: 1091591198050186579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc58714db45132a00800000000000000
+      internalID: 730450979989194187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 312
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5c84bbf920a5000800000000000000
+      internalID: 25335632969123291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 312
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f53a5fb494f92700800000000000000
+      internalID: 516212552013329912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 312
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a857d2bdc17094900800000000000000
+      internalID: 669073840158897546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 312
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e536c6fcabe90800800000000000000
+      internalID: 579253155200906726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_26
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 312
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5983c51bf0a9d00800000000000000
+      internalID: 980113123337344468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 312
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b851144194e21e700800000000000000
+      internalID: 567785919432693131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45ae6eb1737d6900800000000000000
+      internalID: 679326051166233934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95df121250894100800000000000000
+      internalID: 92746357317555613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a59ac347d8652200800000000000000
+      internalID: 154645035978757539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5ad675570493c00800000000000000
+      internalID: 880806074849797587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 208
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975b76914293b5e00800000000000000
+      internalID: 1034483366619493753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_33
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 208
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c50a7a63fc616a00800000000000000
+      internalID: 747998805839447494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_34
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 208
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad556c789110c7300800000000000000
+      internalID: 251076888389637594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c56e5ff221c1ea00800000000000000
+      internalID: 784120166196602304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255e410ddf344f000800000000000000
+      internalID: 68754651714217298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 104
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45a0357e9c95bc00800000000000000
+      internalID: 915810303624652111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_38
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 104
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745a9209e05a03b00800000000000000
+      internalID: 806325815266092359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 104
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55ec47ce2b900800800000000000000
+      internalID: 576631377517929823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_40
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 104
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5adb96f9fdf0700800000000000000
+      internalID: 508871158682985919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_41
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 104
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55f35c4d23e07b00800000000000000
+      internalID: 824408515502404955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5078bb21c362400800000000000000
+      internalID: 298992476419982769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b585d1ae24fe0000800000000000000
+      internalID: 4209130794747313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5a217b4afd38d00800000000000000
+      internalID: 973867842981242284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a598d8c7a0ee9600800000000000000
+      internalID: 477065621781648807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d51c68136b42c600800000000000000
+      internalID: 487034598693017042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FeatherFan_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 112
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50000000, y: 0.17307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e53f11077ef31900800000000000000
+      internalID: 654146157972239849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FeatherFan_00: 840155687542641991
+      FeatherFan_01: 157138124115354963
+      FeatherFan_02: 168542330967815430
+      FeatherFan_03: 599906182928098633
+      FeatherFan_04: 905171683988342061
+      FeatherFan_05: 520020861063185672
+      FeatherFan_06: 839307858716620242
+      FeatherFan_07: 21260570996901217
+      FeatherFan_08: 993088060618663281
+      FeatherFan_09: 253665634337928670
+      FeatherFan_10: 758576789837362641
+      FeatherFan_11: 867184335896548831
+      FeatherFan_12: 889399175322973612
+      FeatherFan_13: 473028925548078485
+      FeatherFan_14: 1062969271841797507
+      FeatherFan_15: 1055187738382083385
+      FeatherFan_16: 335176123638871328
+      FeatherFan_17: 968836112141280553
+      FeatherFan_18: 114357895387907344
+      FeatherFan_19: 554714843096573406
+      FeatherFan_20: 1091591198050186579
+      FeatherFan_21: 730450979989194187
+      FeatherFan_22: 25335632969123291
+      FeatherFan_23: 516212552013329912
+      FeatherFan_24: 669073840158897546
+      FeatherFan_25: 579253155200906726
+      FeatherFan_26: 980113123337344468
+      FeatherFan_27: 567785919432693131
+      FeatherFan_28: 679326051166233934
+      FeatherFan_29: 92746357317555613
+      FeatherFan_30: 154645035978757539
+      FeatherFan_31: 880806074849797587
+      FeatherFan_32: 1034483366619493753
+      FeatherFan_33: 747998805839447494
+      FeatherFan_34: 251076888389637594
+      FeatherFan_35: 784120166196602304
+      FeatherFan_36: 68754651714217298
+      FeatherFan_37: 915810303624652111
+      FeatherFan_38: 806325815266092359
+      FeatherFan_39: 576631377517929823
+      FeatherFan_40: 508871158682985919
+      FeatherFan_41: 824408515502404955
+      FeatherFan_42: 298992476419982769
+      FeatherFan_43: 4209130794747313
+      FeatherFan_44: 973867842981242284
+      FeatherFan_45: 477065621781648807
+      FeatherFan_46: 487034598693017042
+      FeatherFan_47: 654146157972239849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

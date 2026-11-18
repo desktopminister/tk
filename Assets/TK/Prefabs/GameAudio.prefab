@@ -103,3 +103,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: b54bff3ec375546d95a55680b53c88d8, type: 3}
     gain: 0.41
     cooldown: 0.14
+  - cue: 13
+    clip: {fileID: 8300000, guid: 2bf451a2f42854a19c002d4a8c5def9f, type: 3}
+    gain: 0.37
+    cooldown: 0.14

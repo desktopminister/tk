@@ -4,7 +4,13 @@
 이펙트: fire/fire-breath, lightning/lightning-strike
 라이선스: LICENSE-pixelfx.txt
 
-원본의 30fps 프레임과 피벗을 유지합니다. Demo의 16 PPU 캐릭터와
+청룡언월도(Guandao), 용담창(DragonSpear), 백우선(FeatherFan)의 시트는 같은
+pixelfx 라이브러리의 melee/sword-slash, melee/thrust, nature/leaf-storm을
+각각 비취색, 은청색, 볏짚·상아색으로 조정해 렌더링했습니다.
+도와 창은 각 16프레임을 초당 20프레임으로 재생합니다. 회오리는 48프레임을
+1.2초 동안 재생하며, 각 무기의 프리팹에서 타격 시점을 조정할 수 있습니다.
+
+열풍과 낙뢰는 원본의 30fps 프레임과 피벗을 유지합니다. Demo의 16 PPU 캐릭터와
 스캐너 범위에 맞게 열풍은 40 PPU, 낙뢰는 64 PPU로 가져왔습니다.
 텍스처는 포인트 필터와 무압축 설정을 사용합니다.
 

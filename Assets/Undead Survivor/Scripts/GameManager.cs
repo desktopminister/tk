@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     int damageBatchDepth;
     int pendingLevelUps;
     bool ending;
+    bool deploymentRequested;
     void Awake()
     {
         instance = this;
@@ -35,8 +36,16 @@ public class GameManager : MonoBehaviour
 
     public void GameStart()
     {
+        if (deploymentRequested) return;
+        deploymentRequested = true;
+        Stop();
+        uiLevelUp.ChooseStartingWeapon(Deploy);
+    }
+
+    void Deploy(Item weapon)
+    {
+        weapon.OnClick();
         health = maxHealth;
-        uiLevelUp.Select(0);
         Resume();
         TKGameAudio.BeginBattle();
     }

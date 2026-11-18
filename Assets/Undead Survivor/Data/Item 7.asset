@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1bd7b5729cbe8468e8a74df828ef3d, type: 3}
+  m_Name: Item 7
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemType: 7
+  startingWeapon: 1
+  itemId: 7
+  itemName: 청룡언월도
+  itemDesc: "기본 피해 +{0}%\n베기 범위 +{1}%"
+  introDesc: 비취빛 칼날로 전방의 적을 넓게 벤다.
+  itemIcon: {fileID: 21300000, guid: 635a4267bcdf5563b0bad8b3dfa67e99, type: 3}
+  iconSmall: {fileID: 21300000, guid: 61393a88833a51f4b57f398694ce3b9f, type: 3}
+  baseDamage: 8
+  baseCount: 0
+  damages:
+  - 0
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1
+  counts: 000000000a0000000a0000000a0000000a000000
+  projectile: {fileID: 3807695540791843370, guid: 4007f37974905ab3a008fd7420526d21, type: 3}
+  hand: {fileID: 0}
+  attackInterval: 1.65
+  attackRange: 1.17
+  areaRadius: 0
+  effectScale: 1.5238095

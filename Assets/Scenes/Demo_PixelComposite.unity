@@ -1014,7 +1014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventoryHUD
   slotSize: 40
   gap: 2
-  slotsPerRow: 6
+  slotsPerRow: 7
 --- !u!1 &233369879
 GameObject:
   m_ObjectHideFlags: 0
@@ -5755,6 +5755,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8267d7db7faeea428cb75b8fb465db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelUp
+  startingWeaponPicker: {fileID: 8237491342749731184, guid: 32d60c2b664791d4481fc94e4caea47e, type: 3}
+  extraCardTemplate: {fileID: 147423308}
+  extraRewards:
+  - {fileID: 11400000, guid: 095874a30e7c57f298b461a0178877c6, type: 2}
+  - {fileID: 11400000, guid: 720754d5effa5b72a36bdb01fa2ce330, type: 2}
+  - {fileID: 11400000, guid: 1b72bb7cab1657579d022635dda4ad67, type: 2}
 --- !u!1 &1256588978
 GameObject:
   m_ObjectHideFlags: 0

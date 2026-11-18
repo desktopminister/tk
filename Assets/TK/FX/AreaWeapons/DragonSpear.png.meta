@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: b8ab1cbb7a9c5efbb2eaf75151882c01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 41566243674920209
+    second: DragonSpear_00
+  - first:
+      213: 308609396087940604
+    second: DragonSpear_01
+  - first:
+      213: 861944713499153849
+    second: DragonSpear_02
+  - first:
+      213: 281404426600388020
+    second: DragonSpear_03
+  - first:
+      213: 622039175083386142
+    second: DragonSpear_04
+  - first:
+      213: 597092555538855388
+    second: DragonSpear_05
+  - first:
+      213: 196031166402659750
+    second: DragonSpear_06
+  - first:
+      213: 600532807141819796
+    second: DragonSpear_07
+  - first:
+      213: 924243513214248376
+    second: DragonSpear_08
+  - first:
+      213: 644969079564789157
+    second: DragonSpear_09
+  - first:
+      213: 680040342603826511
+    second: DragonSpear_10
+  - first:
+      213: 751106273760486822
+    second: DragonSpear_11
+  - first:
+      213: 633359022769436013
+    second: DragonSpear_12
+  - first:
+      213: 369716901938238758
+    second: DragonSpear_13
+  - first:
+      213: 308699487007434207
+    second: DragonSpear_14
+  - first:
+      213: 930493728938186199
+    second: DragonSpear_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DragonSpear_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11514e4474ca39000800000000000000
+      internalID: 41566243674920209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_01
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 380
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf56b245c96684400800000000000000
+      internalID: 308609396087940604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_02
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 380
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b59420762e36fb00800000000000000
+      internalID: 861944713499153849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b51db5c5dfb7e300800000000000000
+      internalID: 281404426600388020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_04
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 304
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15e833855de1a800800000000000000
+      internalID: 622039175083386142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_05
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 304
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd57ce6048c494800800000000000000
+      internalID: 597092555538855388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a50656ae4178b200800000000000000
+      internalID: 196031166402659750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_07
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 228
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49508a50865855800800000000000000
+      internalID: 600532807141819796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_08
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 228
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b52813149293dc00800000000000000
+      internalID: 924243513214248376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5e19ee5f363f800800000000000000
+      internalID: 644969079564789157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 152
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4506dda61dff6900800000000000000
+      internalID: 680040342603826511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 152
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5af0c2d277c6a00800000000000000
+      internalID: 751106273760486822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65f57feca42ac800800000000000000
+      internalID: 633359022769436013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 76
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6259c7f309f712500800000000000000
+      internalID: 369716901938238758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 76
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd56c614c88b84400800000000000000
+      internalID: 308699487007434207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSpear_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 196
+        height: 76
+      alignment: 9
+      pivot: {x: 0.21938776, y: 0.44736842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5d613dd17c9ec00800000000000000
+      internalID: 930493728938186199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DragonSpear_00: 41566243674920209
+      DragonSpear_01: 308609396087940604
+      DragonSpear_02: 861944713499153849
+      DragonSpear_03: 281404426600388020
+      DragonSpear_04: 622039175083386142
+      DragonSpear_05: 597092555538855388
+      DragonSpear_06: 196031166402659750
+      DragonSpear_07: 600532807141819796
+      DragonSpear_08: 924243513214248376
+      DragonSpear_09: 644969079564789157
+      DragonSpear_10: 680040342603826511
+      DragonSpear_11: 751106273760486822
+      DragonSpear_12: 633359022769436013
+      DragonSpear_13: 369716901938238758
+      DragonSpear_14: 308699487007434207
+      DragonSpear_15: 930493728938186199
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

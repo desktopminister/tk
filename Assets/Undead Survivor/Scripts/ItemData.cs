@@ -5,11 +5,14 @@ public class ItemData : ScriptableObject
 {
     public enum ItemType
     {
-        Melee, Ranged, Glove, Shoe, Heal, FireBreath, LightningStrike
+        Melee, Ranged, Glove, Shoe, Heal, FireBreath, LightningStrike, Relic
     }
     //아이템 데이터 관리
     [Header("# Main Info")]
     public ItemType itemType;
+    [Tooltip("출진 전 무기 선택 후보에 포함")]
+    public bool startingWeapon;
+    public bool UsesAreaAttack => itemType == ItemType.FireBreath || itemType == ItemType.LightningStrike || itemType == ItemType.Relic;
     public int itemId;
     public string itemName;
     [TextArea]
